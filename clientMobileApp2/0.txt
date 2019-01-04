@@ -1,0 +1,45 @@
+*** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '-[WKWebView setAllowsLinkPreview:]: unrecognized selector sent to instance 0x12e50ecc0'
+libc++abi.dylib: terminating with uncaught exception of type NSException
+
+
+run on ios 8 with  "ionic cordova platform add  ios@4.2.1"
+
+try ionic cordova platform add  ios@4.3.1
+
+ ============================================================================
+
+Error: Error code 66 for command: xcodebuild with args: -xcconfig,
+
+need Signing in general settings
+===========================
+dyld: Symbol not found: ___NSDictionary0__
+
+run on ios 8 with "ionic cordova run  ios"
+
+
+================================
+setAllowsLinkPreview
+==============================================
+
+   Could not find any version that matches com.google.firebase:firebase-core:11.0.+.
+   run from android studio and add the these lines to gradle.build android
+   configurations.all {
+       resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+           def requested = details.requested
+           if (requested.group == 'com.android.support') {
+               if (!requested.name.startsWith("multidex")) {
+                   details.useVersion '25.3.0'
+               }
+           }
+       }
+   }
+
+   ============================================
+
+   mergeArmv7DebugResources
+   problem with icon and splash
+   remove platform and add it again
+   ====================================================
+
+   open -a Google\ Chrome --args --disable-web-security --user-data-dir
+

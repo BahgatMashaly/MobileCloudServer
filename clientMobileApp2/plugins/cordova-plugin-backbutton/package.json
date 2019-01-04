@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-backbutton@^0.3.0",
+        "scope": null,
+        "escapedName": "cordova-plugin-backbutton",
+        "name": "cordova-plugin-backbutton",
+        "rawSpec": "^0.3.0",
+        "spec": ">=0.3.0 <0.4.0",
+        "type": "range"
+      },
+      "/Volumes/MACData/programing/programing11/projects/ssp/ssp-v91/node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-backbutton@>=0.3.0 <0.4.0",
+  "_id": "cordova-plugin-backbutton@0.3.0",
+  "_inCache": true,
+  "_location": "/cordova-plugin-backbutton",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "mohamed.salah",
+    "email": "mohamed.salah@badrit.com"
+  },
+  "_npmVersion": "2.7.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-backbutton@^0.3.0",
+    "scope": null,
+    "escapedName": "cordova-plugin-backbutton",
+    "name": "cordova-plugin-backbutton",
+    "rawSpec": "^0.3.0",
+    "spec": ">=0.3.0 <0.4.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npmjs.org/cordova-plugin-backbutton/-/cordova-plugin-backbutton-0.3.0.tgz",
+  "_shasum": "752fd68fff83d3917ae1eff6de2cd50fcce024e3",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-backbutton@^0.3.0",
+  "_where": "/Volumes/MACData/programing/programing11/projects/ssp/ssp-v91/node_modules",
+  "bugs": {
+    "url": "https://github.com/mohamed-salah/phonegap-backbutton-plugin/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-backbutton",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Backbutton Plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "752fd68fff83d3917ae1eff6de2cd50fcce024e3",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-backbutton/-/cordova-plugin-backbutton-0.3.0.tgz"
+  },
+  "gitHead": "386ca9b9cf2eb040c2eccd351609c8b852a1b878",
+  "homepage": "https://github.com/mohamed-salah/phonegap-backbutton-plugin",
+  "keywords": [
+    "cordova",
+    "backbutton",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "mohamed.salah",
+      "email": "mohamed.salah@badrit.com"
+    }
+  ],
+  "name": "cordova-plugin-backbutton",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamed-salah/phonegap-backbutton-plugin.git"
+  },
+  "scripts": {},
+  "version": "0.3.0"
+}

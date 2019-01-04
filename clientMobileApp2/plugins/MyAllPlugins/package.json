@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/Volumes/MACData/programing/programing10/projects/MyAllPlugins",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/Volumes/MACData/programing/programing10/projects/MyAllPlugins",
+        "spec": "/Volumes/MACData/programing/programing10/projects/MyAllPlugins",
+        "type": "directory"
+      },
+      "/Volumes/MACData/programing/programing10/projects/MobileCloudServer/clientMobileApp2/node_modules"
+    ]
+  ],
+  "_from": "../../MyAllPlugins",
+  "_id": "MyAllPlugins@1.0.0",
+  "_inCache": true,
+  "_location": "/MyAllPlugins",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/Volumes/MACData/programing/programing10/projects/MyAllPlugins",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/Volumes/MACData/programing/programing10/projects/MyAllPlugins",
+    "spec": "/Volumes/MACData/programing/programing10/projects/MyAllPlugins",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:../../MyAllPlugins",
+  "_shasum": "1b881eac741bb326badc291cd5edd872e618b9aa",
+  "_shrinkwrap": null,
+  "_spec": "/Volumes/MACData/programing/programing10/projects/MyAllPlugins",
+  "_where": "/Volumes/MACData/programing/programing10/projects/MobileCloudServer/clientMobileApp2/node_modules",
+  "author": {
+    "name": "Bahgat MAshaly"
+  },
+  "cordova": {
+    "id": "MyAllPlugins",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8",
+      "windows8",
+      "windows"
+    ]
+  },
+  "dependencies": {},
+  "description": "This is a cordova plugin to minimizes the application in android,IOS devices.",
+  "devDependencies": {},
+  "keywords": [
+    "cordova",
+    "ionic",
+    "minimize",
+    "android",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "ios",
+    "windows"
+  ],
+  "license": "MIT",
+  "name": "MyAllPlugins",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MyAllPlugins"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

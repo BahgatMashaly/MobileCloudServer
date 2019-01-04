@@ -1,0 +1,88 @@
+~
+https://forum.ionicframework.com/t/ionic-2-projects-updating-to-beta-4/49054
+
+npm uninstall zone.js --save
+npm uninstall rxjs  --save
+npm uninstall ionic-angular --save
+npm uninstall angular2 --save
+npm uninstall es6-shim --save
+
+
+
+npm install kerberos@latest --save
+npm install zone.js@latest --save-dev
+npm install rxjs@latest --save-dev
+npm install es6-shim@latest --save-dev
+npm install angular2@latest --save-dev
+npm install ionic-angular@latest --save-dev
+
+
+sudo npm install -g ionic@beta
+sudo npm install -g ios-deploy --unsafe-perm=true
+
+
+ios xcode
+
+targets > bulid settings >linking
+Runpath search paths = @executable_path/Frameworks
+===============
+targets > bulid settings >Swift Compiler-code Generation
+Object-c Bridging-Header=${PRODUCT_NAME}/Plugins/MyAllPlugins/Bridging-Header.h
+==============
+/Users/Bahgat/Desktop/bus/3almashi/4-3almashi/tryModal/plugins/ionic-plugin-keyboard/src/ios/IonicKeyboard.m
+setHideKeyboardAccessoryBar
+No
+No
+===================================
+Swift 3 @objc inference  = On
+===============================================
+عند الرفع
+--no source map
+--angular2  prodaction
+==============================
+حذف هذا السطر
+
+    <asset src="www/SpinnerDialog.js" target="js/SpinnerDialog.js"/>
+	من
+ 5-3almashiINTeger/tryModal/plugins/com.filfatstudios.spinnerdialog/plugin.xml
+
+export HTTP_PROXY="http://163.121.250.8:3128"
+export http_proxy="http://163.121.250.8:3128"
+export https_proxy="http://163.121.250.8:3128"
+export HTTPS_PROXY="http://163.121.250.8:3128"
+export https_proxy="http://163.121.250.8:3128"
+export http_proxy="http://163.121.250.8:3128"
+export HTTP_PROXY="http://163.121.250.8:3128"
+export HTTPS_PROXY="http://163.121.250.8:3128"
+========================
+
+ionic start MyIonic2Project7 tutorial --v2
+cd MyIonic2Project7
+ionic platform add  android
+ionic resources --splash
+
+
+=================
+لو حذفت اي
+platform
+يجب ان تضيفها عن طريق
+ ionic platform add  android
+ وليس
+ ionic run  android
+وذلك لانه لا يضيف البلجن
+================================================
+تعديل
+5-3almashiINTeger/tryModal/node_modules/ionic-framework/animations/animation.js
+الى
+١ بدلا من
+0.001
+ Animation.prototype.fadeIn = function () {
+        return this.fromTo('opacity', 1, 1);//0.001
+    };
+======================
+
+====================
+
+
+==========================================================
+ionic plugin add /Volumes/Shared/Programing/programing8/IBM/مشاريع/update/3BlankCordovaApp48androidAndWP/BlankCordovaApp48/plugins/MyAllPlugins

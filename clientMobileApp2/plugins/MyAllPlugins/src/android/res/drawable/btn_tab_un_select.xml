@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:exitFadeDuration="@android:integer/config_shortAnimTime">
+    <!--خط عريض فقط-->
+    <item
+        android:drawable="@drawable/abc_tab_selected_holo"
+
+        />
+
+    <item
+
+        android:drawable="@drawable/abc_ab_transparent_dark_holo"
+        />
+</selector>

@@ -1,0 +1,64 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "MyAllPlugins": {
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "cordova-fabric-plugin": {
+            "FABRIC_API_KEY": "e5fd03319d491715857a5e7600fd162ba31e4b1e",
+            "FABRIC_API_SECRET": "bfdba6ec6977027e64f450192c288f13de3b7b2a3f9724333839f484c5cf4b3f",
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "cordova-plugin-backbutton": {
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "cordova.plugins.diagnostic": {
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.tedata.test"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "85075801930",
+            "PACKAGE_NAME": "com.tedata.test"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.tedata.test"
+        }
+    }
+}

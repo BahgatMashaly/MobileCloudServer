@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent" android:layout_height="match_parent"
+
+             android:background="@drawable/cute"
+             android:alpha=".5"
+    >
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:id="@+id/lin_ringing"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".67"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:id="@+id/txt_name_ringing"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:alpha=".6"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:id="@+id/txt_num_ringing"
+                android:background="#000000"
+                android:alpha=".6"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+
+                android:id="@+id/img_ringing"
+                android:src="@drawable/ringing"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".07"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:scaleType="centerInside"
+            >
+
+            <ImageButton
+
+                android:src="@drawable/answer3"
+                android:id="@+id/btn_answer_ringing"
+                android:layout_height="50dp"
+
+
+                android:layout_width="140dp"
+
+                android:maxWidth="140dp"
+
+                android:adjustViewBounds="true"
+
+                android:scaleType="fitXY"
+
+                android:layout_margin="10dp"
+
+                android:paddingBottom="1dp"
+                android:paddingTop="1dp"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_reject_ringing"
+
+                android:src="@drawable/rejecttrans"
+                android:layout_height="50dp"
+
+
+                android:layout_width="140dp"
+
+                android:maxWidth="140dp"
+
+                android:adjustViewBounds="true"
+
+                android:scaleType="fitXY"
+
+                android:layout_margin="10dp"
+
+                android:paddingBottom="1dp"
+                android:paddingTop="1dp"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+
+            >
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/btn_Reject_with_message_ringing"
+
+                android:layout_gravity="bottom"
+                android:padding="0dp"
+                android:gravity="bottom"
+                android:scaleType="fitXY"
+
+                android:src="@drawable/reject_with_message"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+
+
+        android:id="@+id/lin_answer"
+
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="#000000"
+                android:alpha=".6"
+                android:id="@+id/txt_name_answer"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:id="@+id/txt_num_answer"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:background="#000000"
+                android:alpha=".6"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:id="@+id/txt_time_Answer"
+
+                android:layout_gravity="right"
+
+                android:background="#000000"
+                android:alpha=".6"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/img_answer"
+                android:src="@drawable/ringing"
+                android:layout_gravity="center"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:scaleType="center"
+
+            >
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="75dp"
+                android:adjustViewBounds="true"
+
+
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:scaleType="centerInside"
+
+                android:layout_marginRight="10dp"
+                android:id="@+id/tog_btn_speaker_answer"
+                android:src="@drawable/img_speaker"
+
+
+
+
+
+                />
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="75dp"
+                android:adjustViewBounds="true"
+
+
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:scaleType="centerInside"
+
+                android:layout_marginRight="10dp"
+
+                android:id="@+id/tog_btn_mute_answer"
+
+
+                android:src="@drawable/img_mute"
+
+                />
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="75dp"
+                android:adjustViewBounds="true"
+
+
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:scaleType="centerInside"
+
+
+
+                android:id="@+id/tog_btn_head_set_answer"
+
+
+                android:src="@drawable/img_bluetooth"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:layout_weight=".1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+
+            android:scaleType="center"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/btn_end_call_Answer"
+                android:src="@drawable/end_call"
+                android:adjustViewBounds="true"
+
+
+                android:paddingBottom="6dp"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:scaleType="centerInside"
+
+                />
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
+    <!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--<item android:state_window_focused="false" android:state_enabled="true"-->
+    <!--android:drawable="@drawable/btn_in_call_main_normal" />-->
+
+    <!--<item android:state_window_focused="false" android:state_enabled="false"-->
+    <!--android:drawable="@drawable/btn_in_call_main_disable" />-->
+
+    <!--<item android:state_pressed="true"-->
+    <!--android:drawable="@drawable/btn_in_call_main_pressed" />-->
+
+    <!--<item android:state_focused="true" android:state_enabled="true"-->
+    <!--android:drawable="@drawable/btn_in_call_main_selected" />-->
+
+    <!--<item android:state_enabled="true"-->
+    <!--android:drawable="@drawable/btn_in_call_main_normal" />-->
+
+    <!--<item android:state_focused="true"-->
+    <!--android:drawable="@drawable/btn_in_call_main_disable_focused" />-->
+
+    <!--<item-->
+    <!--android:drawable="@drawable/btn_in_call_main_disable" />-->
+
+    <!--</selector>-->

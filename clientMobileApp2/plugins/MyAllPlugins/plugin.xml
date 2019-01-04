@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+     
+        
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         id="MyAllPlugins"
+      version="0.1.0">
+    <name>MyAllPlugins</name>
+    <description>MyAllPlugins plugin for Apache Cordova</description>
+    <license>MIT</license>
+    <keywords></keywords>
+    <repo></repo>
+    <issue></issue>
+
+    <!--<js-module src="www/MyAllPlugins.js" name="MyAllPlugins">-->
+        <!--<clobbers target="MyAllPlugins" />-->
+    <!--</js-module>-->
+
+    <!-- wp8 -->
+    <platform name="wp8">
+        <js-module src="www/MyAllPlugins.js" name="MyAllPlugins">
+            <clobbers target="MyAllPlugins" />
+        </js-module>
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="MyAllPluginsClass">
+                <param name="wp-package" value="MyAllPluginsClass"/>
+            </feature>
+        </config-file>
+
+             <source-file src="src/wp/MyAllPluginsClass.cs" />
+      <source-file src="src/wp/UnzipAndListFilesFolders.cs" />
+         <source-file src="src/wp/SharpGIS.UnZipper.cs" />
+              <source-file src="src/wp/checkUpdate.cs" />
+        <source-file src="src/wp/xxHash.cs" />
+      
+           <source-file src="src/wp/globalVariables.cs" />
+           
+      
+      <framework src="src/wp/Newtonsoft.Json.dll" custom="true"/>
+       <framework src="src/wp/System.Net.Http.dll" custom="true"/>
+    <framework src="src/wp/System.Net.Http.Primitives.dll" custom="true"/>
+ 
+    </platform>
+  
+    <platform name="android">
+        <js-module src="www/MyAllPlugins.js" name="MyAllPlugins">
+            <clobbers target="MyAllPlugins" />
+        </js-module>
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="MyAllPluginsClass">
+                <param name="android-package" value="com.Plugins.MyAllPlugins.MyAllPluginsClass"/>
+            </feature>
+        </config-file>
+      <config-file target="AndroidManifest.xml" parent="/manifest">
+
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+        <uses-permission android:name="android.permission.INTERNET"/>
+          <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+          <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+          <uses-permission android:name="android.permission.READ_CONTACTS" />
+          <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+      </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+        <!-- Push permissions -->
+        <!--<permission android:name="com.a11.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+        <uses-permission android:name="com.a11.permission.C2D_MESSAGE"/>
+        <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+        <uses-permission android:name="android.permission.WAKE_LOCK"/>
+        <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+        <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>-->
+          <service
+                  android:name="com.adobe.phonegap.push.RegistrationIntentService"
+                  android:exported="false" />
+
+          <activity android:name="com.Plugins.MyAllPlugins.Service.PlayAudioVideo"></activity>
+          <receiver
+                  android:name="com.Plugins.MyAllPlugins.Service.service_Receiver_system_broadCast"
+                  android:enabled="true">
+              <intent-filter>
+                  <action android:name="android.intent.action.BOOT_COMPLETED" />
+                  <action android:name="AlertFromService" />
+                  <action android:name="AlarmReceiver" />
+              </intent-filter>
+          </receiver>
+
+          <service
+                  android:name="com.Plugins.MyAllPlugins.Service.serviceServerClient"
+                  android:exported="true" />
+
+      </config-file>
+
+       
+      <!--<source-file src="src/android/MyAllPluginsClass.java"  target-dir="src/com/Plugins/MyAllPlugins" />-->
+      <!--<source-file src="src/android/checkUpdate.java"  target-dir="src/com/Plugins/MyAllPlugins" />-->
+      <!--<source-file src="src/android/globalVariables.java"  target-dir="src/com/Plugins/MyAllPlugins" />-->
+        <source-file src="src/android/src/com/Plugins/MyAllPlugins"  target-dir="src/com/Plugins" />
+        <source-file src="src/android/src/org/sipdroid"  target-dir="src/org/sipdroid" />
+
+        <source-file src="src/android/res/layout/activity_play_audio_video.xml"  target-dir="res/layout" />
+        <source-file src="src/android/res/layout/ringing_answer.xml"  target-dir="res/layout" />
+
+        <source-file src="src/android/res/drawable/cute.jpg" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/ringing.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/answer3.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/rejecttrans.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/reject_with_message.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/img_speaker.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/img_mute.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/img_bluetooth.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/end_call.png" target-dir="res/drawable"/>
+        <source-file src="src/android/res/drawable/announcement.jpg" target-dir="res/drawable"/>
+
+
+
+
+
+        <source-file src="src/android/res/raw/busy.ogg" target-dir="res/raw"/>
+        <source-file src="src/android/res/raw/ringing.ogg" target-dir="res/raw"/>
+        <source-file src="src/android/res/raw/disconnect.ogg" target-dir="res/raw"/>
+        <source-file src="src/android/res/raw/open_call.ogg" target-dir="res/raw"/>
+        <source-file src="src/android/res/raw/close_call.ogg" target-dir="res/raw"/>
+
+        <config-file target="res/values/strings.xml" parent="/resources">
+            <string-array name="reject_messages">
+                <item>Sorry,I\'m in a meeting,I\'ll call later</item>
+                <item>Sorry,I\'ll call later.</item>
+                <item>Can\'t talk now. What\'s up?</item>
+                <item>I\'m driving</item>
+                <item>I\'ll call you right back.</item>
+                <item>Write your own message</item>
+            </string-array>
+            <color name="mystatecolor">#ff0099cc</color>
+        </config-file>
+
+
+        <framework src="de.greenrobot:eventbus:2.4.1"  />
+
+        <!--<framework src="com.google.android.gms:play-services-gcm:11.2.0"  />-->
+        <!--<framework src="com.android.support:support-v13:23+"  />-->
+        <framework src='com.android.support:appcompat-v7:22.2.1' />
+      <!---->
+
+        <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
+
+        <!--<config-file target="res/values/strings.xml" parent="/resources">-->
+            <!--<string name="message1">Hello</string>-->
+            <!--<string name="message2">world!</string>-->
+        <!--</config-file>-->
+
+     </platform>
+  
+  
+    
+  <platform name="ios">
+      <js-module src="www/MyAllPlugins.js" name="MyAllPlugins">
+          <clobbers target="MyAllPlugins" />
+      </js-module>
+    <info>
+     </info>
+    <config-file target="config.xml" parent="/*">
+      <feature name="MyAllPluginsClass">
+        <param name="ios-package" value="MyAllPluginsClass"/>
+      </feature>
+    </config-file>
+        
+        <Content Include="res\native\ios\cordova\build.xcconfig" />
+  <Content Include="res\native\ios\cordova\build-debug.xcconfig">
+    <DependentUpon>build.xcconfig</DependentUpon>
+  </Content>
+  <Content Include="res\native\ios\cordova\build-release.xcconfig">
+    <DependentUpon>build.xcconfig</DependentUpon>
+  </Content>
+
+
+
+      <resource-file src="src/ios/AVPlayer/AVp.xib" target-dir="AVPlayer"/>
+      <source-file src="src/ios/AVPlayer/AVp.swift" target-dir="AVPlayer"/>
+
+      <source-file src="src/ios/hash/xxhash.c" target-dir="hash" />
+      <header-file src="src/ios/hash/xxhash.h" target-dir="hash" />
+
+      <source-file src="src/ios/Reachability_to_internet/Reachability.m" target-dir="Reachability_to_internet" />
+      <header-file src="src/ios/Reachability_to_internet/Reachability.h" target-dir="Reachability_to_internet" />
+
+
+      <source-file src="src/ios/AppDelegate+notification.swift"/>
+      <source-file src="src/ios/AppDelegate+Voip.swift"/>
+
+      <source-file src="src/ios/AppDelegate.swift"/>
+
+      <header-file src="src/ios/Bridging-Header.h" />
+
+      <source-file src="src/ios/checkUpdate.swift"/>
+      <source-file src="src/ios/Keychain.swift"/>
+      <source-file src="src/ios/Location.swift"/>
+
+    <source-file src="src/ios/MyAllPluginsClass.swift"/>
+     <source-file src="src/ios/string_ex.swift"/>
+      <source-file src="src/ios/SV.swift"/>
+      <source-file src="src/ios/SwiftyJSON.swift"/>
+      <source-file src="src/ios/Toast.swift"/>
+      <source-file src="src/ios/VoipTCPService.swift"/>
+
+
+
+    <source-file src="src/ios/zipzap/libzipzap.a" framework="true" target-dir="zipzap" />
+   <header-file src="src/ios/zipzap/include/zipzap/ZZArchive.h"  target-dir="zipzap/include/zipzap" />
+   <header-file src="src/ios/zipzap/include/zipzap/ZZArchiveEntry.h" target-dir="zipzap/include/zipzap" />
+     <header-file src="src/ios/zipzap/include/zipzap/ZZConstants.h" target-dir="zipzap/include/zipzap" />
+     <header-file src="src/ios/zipzap/include/zipzap/ZZError.h" target-dir="zipzap/include/zipzap" />
+  <header-file src="src/ios/zipzap/include/zipzap/zipzap.h" target-dir="zipzap/include/zipzap" />
+
+
+
+     
+    <framework src="ImageIO.framework" />
+     <framework src="libz.1.2.5.dylib" weak="true" />
+    
+   
+  </platform>
+
+    <!-- windows -->
+    <platform name="windows">
+        <js-module src="src/windows/MyAllPluginsProxy.js" name="myAllPlugins">
+            <merges target="" />
+        </js-module>
+
+        <framework src="src/windows/MyAllPluginsWinRTComponent/MyAllPluginsWinRTComponent.csproj" custom="true" type="projectReference"  />
+
+        <config-file target="package.windows80.appxmanifest" parent="/Package/Capabilities">
+            <Capability Name="internetClientServer" />
+        </config-file>
+        <config-file target="package.windows.appxmanifest" parent="/Package/Capabilities">
+            <Capability Name="internetClientServer" />
+        </config-file>
+
+
+    </platform>
+  
+
+
+</plugin>

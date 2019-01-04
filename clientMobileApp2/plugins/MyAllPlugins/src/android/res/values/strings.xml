@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">V2Test</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+
+
+    <string-array name="reject_messages">
+
+        <item>Sorry,I\'m in a meeting,I\'ll call later</item>
+        <item>Sorry,I\'ll call later.</item>
+        <item>Can\'t talk now. What\'s up?</item>
+        <item>I\'m driving</item>
+        <item>I\'ll call you right back.</item>
+        <item>Write your own message</item>
+    </string-array>
+
+    <color name="mystatecolor">#ff0099cc</color>
+</resources>

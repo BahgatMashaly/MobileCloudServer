@@ -1,0 +1,43 @@
+<ion-menu [content]="content" >
+
+  <!--<ion-header>
+    <ion-toolbar>
+      <ion-title>Pages</ion-title>
+    </ion-toolbar>
+  </ion-header>-->
+
+
+  <ion-content
+          class="menu-content">
+    <ion-list>
+      <ion-item>
+        <img  src="assets/img/tedata.png"
+                width="60%">
+
+
+      </ion-item>
+
+      <ion-item *ngFor="let p of pages"
+                (click)="openPage(p)">
+
+        {{p.title|translate}}
+
+        <ion-icon
+                name='{{p.icon}}'
+                item-start
+                color="danger"></ion-icon>
+
+      </ion-item>
+
+    </ion-list>
+
+  </ion-content>
+
+</ion-menu>
+
+<!-- main navigation -->
+<ion-nav id="nav" [root]="rootPage" #content swipe-back-enabled="false"></ion-nav>
+
+
+<!-- where popups/actionsheets/modals are added -->
+
