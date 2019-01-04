@@ -1,0 +1,417 @@
+{
+
+
+  "LOGIN":
+  {
+
+    "LANG": "EN",
+    "USER_NAME":  "اسم المستخدم",
+    "PASSWORD": "كلمة السر",
+    "FORGET_PASSWORD": "نسيت كلمة المرور ؟",
+    "LOGIN": "دخول",
+    "COPYRIGHT":"جميع حقوق النشر محفوظة لشركة تي اي داتا ٢٠١٦ ©.",
+    "INVALID_EMAIL":"الرجاء التأكد من إدخال البريد الإلكتروني بشكل صحيح",
+    "INVALID_PASS":" كلمة المرور غير صالحة",
+    "EMPTY_PASS":"الرجاء التأكد من إدخال كلمة المرور",
+    "EMPTY_EMAIL":"الرجاء التأكد من إدخال البريد الإلكتروني"
+  },
+  "FORGET_PASSWORD": {
+    "TITLE":"استرجاع كلمة المرور",
+    "EMAIL":"البريد الالكتروني",
+    "FORGET_PASSWORD":"نسيت كلمة السر",
+    "LBL" :" برجاء ادخال البريد الالكتروني لاستقبال كلمة المرور",
+    "INVALID_EMAIL":"الرجاء التأكد من إدخال البريد الإلكتروني بشكل صحيح",
+    "BTN_SEND":"ارسال",
+    "EMAIL_WILL_SEND":"email will be send shortly"
+  },
+  "HOME": {
+    "TITLE": "الرئيسية ",
+    "WELCOME_TEXT": "أهلا  ",
+    "YOU_HAVE_TEXT": "لديك",
+    "DAYS_TEXT": " أيام ",
+    "RENEW":"التجديد",
+    "REMAINING_TEXT": "متبقية",
+    "REMAINING_DAYS_TEXT": " أيام متبقية ",
+    "RENEW_TEXT": "تجديد إشتراكي",
+    "USAGE_TEXT": "الإستخدام",
+    "SINCE_TEXT": "منذ ",
+    "POINTS_TEXT": " نقاط ",
+    "REDEEM_TEXT": " استرداد",
+    "LOG_OUT_MSG":"هل أنت متأكد من أنك تريد تسجيل الخروج"
+
+
+  },
+  "RENEWAL": {
+    "RENEW_SUBSCRIPTION_HEADER_TEXT":  "جدد اشتراكك",
+    "CURRENT_SERVICE_TEXT": "الخدمة/المنتج",
+    "DURATION_TEXT": "الفتره",
+    "PAYMENT_TXT": "الدفع",
+    "RRENEWAL_PERIOD":"فترة التجديد/شهريا",
+    "AVAILABLE_PROMOTHINS": "العروض المتاحة",
+    "RENEWAL_SUBSCRIPTION":"تجديد الاشتراك",
+    "CURRENT_SERVICE_TXT" :"الباقة الحالية ",
+    "PROCEED_TO_ON_LINE_TEXT" : "ادفع",
+    "START_DATE": "تاريخ بداية الإشتراك",
+    "END_DATE": "تاريخ نهاية الإشتراك",
+    "RENEW_PAYMENT_CONFIRMATION":"تأكيد دفع الاشتراك",
+    "SUBSCRIPTION_FEES":" قيمة الاشتراك",
+    "UNPAID_USAGE_FEES":" قيمة الاستخدام غير المدفوع",
+    "TOTAL_FEES":"اجمالي المبلغ",
+    "ACCEPT_TERMS_AND_CONDITIONS":"اوافق على الشروط و الاحكام",
+    "Renew":"تجديد",
+    "GOTO_HOME":"الصفحة الرئيسية",
+    "ALREADY_RENEWED":"You have already renewed. Do you still want to continue?"
+
+  },
+
+  "GLOBAL_MESSAGES": {
+    "NO_CONNECTION": "لا يوجد اتصال بالشبكة",
+    "ERROR_TITLE" : "خطأ",
+    "ALERT_TITLE" : "تنبيه",
+    "RETRY": "إعادة المحاولة",
+     "SERVER_PROBLEM_WB":"WAS Server Access Problem,check service url, access-origin and TEData Network or call WAS Admin",
+    "SERVER_PROBLEM":"عميلنا العزيز لا يمكننا الوصول للخدمة في الوقت الحالي , الرجاء المحالوة لاحقا. "
+  },
+
+
+  "PLEASE_ENTER_PROBLEM_TITLE":"من فضلك اختر عنوان المشكلة",
+  "PLEASE_ENTER_PROBLEM_DESCRIPTION":"من فضلك ادخل تفاصيل المشكلة",
+  "CHANGE_PROFILE_LANGUAGE":"يمكنك تغيير اللغة التى تفضلها في تواصلنا معك من خلال صفحتك الشخصية",
+  "OPTIONPACK_NONELIGABLE":"لا يمكن إكمال طلبكم. يرجى الاتصال 111 أو زيارة أقرب فرع لمزيد من المعلومات",
+  "INVALID_MOBILE2_FORMAT":"موبايل 2 غير صالحة",
+  "INDRECT_PROMOTION_NOTELIGABLE":" هذا العرض غير متوفر لهذا الإشتراك.لمزيد من المعلومات برجاء الإتصال ب ١٩٧٧٧ أو زيارة الموزع الخاص بك",
+  "UNRESPONSIVE_HOST":"لا يوجد اتصال بالانترنت, برجاء الاتصال بالانترنت ",
+  "ERROR":"خطأ",
+  "ABOUT": {
+    "TITLE": "عنا"
+  },
+  "CONTACT": {
+    "TITLE": "Contacto",
+    "TWITTER_MESSAGE": "Síguenos en Twitter"
+  },
+  "TABS": {
+    "HOME": "Home",
+    "ABOUT": "Acerca de",
+    "CONTACT": "Contacto"
+  },
+
+
+  "HEADER_TEXT" : "عنوان ",
+  "ACTIONS_LABEL" : " بالعربي ",
+  "SAMPLE_TEXT": " شوية كلام بالعربي ",
+  "RENEW_TEXT": "جددد الاشتراك ",
+  "PROMOTIONS_ERROR_TEXT":"",
+  "USAGEERRORTEXT":"",
+  "REMAININGERRORTEXT":"",
+  "POINTSERRORTEXT":"",
+  "NODAYSREMAININGTEXT":"",
+  "ADSLEXPIRTYDATETEXT":"تاريخ التجديد",
+  "USAGEEXCEPTION":"خطأ ",
+  "MENU": {
+    "HOMEMENU": "الرئيسية",
+    "INVOICEMENU": "فواتيري",
+    "CHANGEـSPEEDـMENU": "تغير السرعة ",
+    "RENEWMENU": "تجديد إشتراكي",
+    "SUSPENSIONMENU": "ايقاف خدمة",
+    "PROFILEMENU": "بياناتي",
+    "HELPMENU": "مساعدة",
+
+    "REQUEST_ROUTER":"طلب راوتر",
+    "REQUEST_OPTION_PACK":"طلب اوبشن باك",
+    "NEAREST_BRANCHES_TITLE":"أقرب منفذ بيع",
+    "RECHARGE_MYQUOTA_MENU":"اعادة شحن رصيد TAL2A",
+    "COMPLAIN_MENU" : "تقديم شكوى",
+    "VIEW_TICKETSLIST_MENU":"مساعدات تقنية سابقة",
+    "CREATE_NEW_TICKET_MENU":"طلب مساعدة تقنية",
+    "CALL_CENTER_NO_LIST_MENU":"الإتصال بخدمة العملاء"
+  },
+
+  "OPTIONS":{
+    "LOGOUTMENU": "خروج",
+    "CHANGE_LANGUAGE": "EN"
+  },
+
+
+
+  "INVOICES": {
+    "INVOICESHEADERTEXT": "فواتيري",
+    "CURRENT": "الحالي",
+    "PREVIOUS": "السابق",
+    "DUETEXT": "مستحقة في",
+    "PAIDTEXT": "مدفوع",
+    "NOTPAIDTEXT": "غير مدفوع ",
+    "INVOICESNUMBERTEXT": "رقم الفاتورة",
+    "INVOICEDATETEXT": "تاريخ الفاتورة",
+    "TOTALAMOUNTTEXT": "أجمالي الفاتوره (شامله الضرائب ) ",
+    "AMOUNTPAIDTEXT": "المدفوع",
+    "AMOUNTPAIDVALUETEXT": "نعم",
+    "DUEDATETEXT": "تاريخ الاستحقاق",
+    "RECEPITDATETEXT": "تاريخ الايصال",
+    "INVOICESDETAILSTEXT": "تفاصيل",
+    "CURRENCYTEXT": "جم",
+    "NEXTRENWALDATE": "تاريخ التجديد"
+  },
+  "INVOICES DETAILS": {
+    "INVOICESDETAILSHEADERTEXT": "تفاصيل الفاتورة",
+    "SERVICETEXT": "الخدمات",
+    "RECEPITTEXT": "ايصالات",
+    "RECEPITNUMBERTEXT": "رقم الايصال",
+    "PAYMENTLOCATION": "مكان الدفع",
+    "DUEAMOUNTTEXT": "المبلغ المستحق"
+  },
+
+  "SUSPENSION": {
+    "SUSPENSIONHEADERTEXT": "اعادة تشغيل / ايقاف",
+    "SUSPENSIONPOLICYTEXT": "سياسه التعليق في تي إي داتا ",
+    "SUSPENSIONBUTTONTEXT": "اقطع الخدمة",
+    "ACTIVATIONBUTTONTEXT": "اعادة تشغيل / ايقاف",
+    "SUSPENSIONTEXT": ""
+  },
+
+  "CHANGE_SPEED": {
+    "CHANGESPEEDHEADER": "تغير السرعة",
+    "CURRENTSPEEDTEXT": "معلومات عن السرعة الحالية ",
+    "SPEEDTEXT": "السرعة",
+    "STARTDATETEXT": "تاريخ بداية الإشتراك",
+    "ENDDATETEXT": "تاريخ نهاية الإشتراك",
+    "SELECTPROMOTIONTEXT": "اختار العرض",
+    "NEWSPEEDTEXT": "السرعة الجديدة",
+    "NEWSPEEDTYPETEXT": "نوع السرعة الجديدة",
+    "RENEWALDURATIONTEXT": "مده التجديد",
+    "REVIEWCHANGESTEXT": "الإطلاع على التغييرات"
+  },
+
+  "CHANGE_SPEEND_DETAILS": {
+    "CHANGESPEEDCONFIRMATIONHEADER": "تأكيد",
+    "SUBSCRIPTIONFEESTEXT": "قيمة الإشتراك",
+    "UNPAIDUSAGEFEESTEXT": "قيمة الإستخدام غير المدفوع",
+    "TOTALFEES": "إجمالي المبلغ",
+    "TERMSTEXT": "أوافق على الشروط والأحكام",
+    "PROCEEDTOONLINETEXT": "تأكيد السداد"
+  },
+  "PROFILE" : {
+    "PROFILE_HEADER_TEXT" : "بياناتي",
+    "EDIT_PROFILE_TITLE" : "تعديل بياناتي",
+    "EDIT_PROFILE_HEADER_TEXT" : "تعديل معلومات الحساب",
+    "PERSONAL_INFO_TEXT" : "المعلومات الشخصية",
+    "CONTACT_INFO_TEXT" : "بيانات الاتصال",
+    "SERVICE_INFORMATION_TEXT" : "بيانات الخدمة",
+    "CUSTOMER_ID" : "رقم العميل",
+    "CUSTOMER_NAME" : "الاسم",
+    "HOME_PHONE_AREA_CODE" : "كود تليفون البيت ",
+    "WORK_PHONE_AREA_CODE" : "كود تليفون العمل",
+    "FAX_PHONE_AREA_CODE" : "كود الفاكس",
+    "LANGUAGE_TEXT" : "اللغة المفضلة",
+    "BUILDING_NUMBER" : "رقم العمارة",
+    "STREET_NAME" : "اسم الشارع",
+    "FLAT_NUMBER" : "رقم الشقة",
+    "DISTRICT" : "المنطقة/الحي",
+    "CITY" : "المدينة/المحافظة",
+    "HOME_PHONE_NUMBER" : "الهاتف",
+    "WORK_PHONE_NUMBER" : "هاتف العمل",
+    "FAX_NUMBER" : "الفاكس",
+    "MOBILE_NUMBER1" : "الهاتف المحمول",
+    "MOBILE_NUMBER2" : "الهاتف المحمول الآخر",
+    "AREA_CODE" : "كود المنطقة",
+    "ADSL_PHONE_NUMBER" : "رقم ADSL",
+    "CURRENT_SPEED" : "السرعة الحالية",
+    "CUSTOMER_INFORMATION_TEXT" : "بيانات العميل",
+    "ADDRESS" : "العنوان",
+    "EMAIL_ADDRESS" : "البريد الإلكتروني",
+    "SAVE_PROFILE" : "حفظ",
+    "VERIFICATION_CODE" : "رمز التحقق",
+    "EXPLANATION_TEXT" : "تم إرسال رمز التحقق إلى هاتفك المحمول. إذا لم يصلك الرقم قريبا برجاء الإتصال بـ111.",
+    "RESEND_CODE" : "إعادة إرسال رمز التحقق",
+    "SERVICE_UNAVAILABLE" : " \u0627\u0644\u062E\u062F\u0645\u0629 \u063A\u064A\u0631 \u0645\u062A\u0627\u062D\u0629 \u0627\u0644\u0622\u0646. \u0628\u0631\u062C\u0627\u0621 \u0627\u0644\u0645\u062D\u0627\u0648\u0644\u0629 \u0641\u064A \u0648\u0642\u062A \u0644\u0627\u062D\u0642",
+    "VERIFY_CODE_TEXT" : "\u062A\u063A\u064A\u064A\u0631 \u0631\u0642\u0645 \u0627\u0644\u0645\u062D\u0645\u0648\u0644",
+    "CHANGE_MOBILE_NUMBER" : "\u062A\u063A\u064A\u064A\u0631 \u0631\u0642\u0645 \u0627\u0644\u0647\u0627\u062A\u0641 \u0627\u0644\u0645\u062D\u0645\u0648\u0644",
+    "CONFIRMATION_MSG" : "\u062A\u0645 \u062A\u0639\u062F\u064A\u0644 \u0628\u064A\u0627\u0646\u0627\u062A\u0643 \u0627\u0644\u0634\u062E\u0635\u064A\u0629 \u0628\u0646\u062C\u0627\u062D",
+    "PREFERRED_LANGUAGE":"اللغة المفضلة",
+    "CONFIRMATION_HEADER" : "تأكيد",
+    "CANCEL" : "الغاء",
+    "SAVE" : "حفظ",
+    "INVALID_MOBILE_LENGTH":"رقم موبايل غير صحيح",
+    "INVALID_WORK_LENGTH":"رقم هاتف عمل غير صحيح",
+    "INVALID_HOME_LENGTH":"رقم هاتف منزل غير صحيح",
+    "INVALID_FAX_LENGTH":"رقم فاكس غير صحيح",
+    "CHANGE_PROFILE_LANGUAGE":"يمكنك تغيير اللغة التى تفضلها في تواصلنا معك من خلال صفحتك الشخصية",
+    "SMS_SENT":"تم ارسال رمز التحقق إلى رقم المحمول الذي ادخلته برجاء إدخال الرمز هنا عند وصول الرسالة.",
+    "WRONG_SMS_CODE":"رمز التحقق غير صحيح",
+    "MAX_SMS":"لقد وصلت للحد الأقصى المسموح لإرسال رمز التحقق."
+  },
+
+  "REQUEST_ROUTER": {
+    "ROUTER_TYPE" : "نوع الراوتر",
+    "ROUTER_DESCRIPTION" : "وصف الراوتر",
+    "CUSTOMER_ADDRESS" : "العنوان",
+    "CUSTOMER_NAME" : "اسم العميل",
+    "CUSTOMER_MOBILE1" : "الهاتف المحمول",
+    "CUSTOMER_MOBILE2" : "إضافة هاتف محمول",
+    "ROUTER_INSTALL" : "هل تريد زيارة لتركيب الخدمة؟",
+    "PAY" : "ادفع الآن",
+    "ROUTER_INSTALL_YES" : "نعم",
+    "ROUTER_INSTALL_NO" : "لا",
+    "REQUEST_ROUTER":"طلب راوتر",
+    "PAYMENT_CONFIRMATION" : "تأكيد عملية الدفع",
+    "ROUTER_DEVICE" : "الخدمة/المنتج",
+    "ROUTER_PRICE" : "سعر الراوتر",
+    "ROUTER_INSTALLATION_FEES" : "مصاريف التركيب",
+    "ROUTER_TOTAL_FEES" : "اجمالي المبلغ",
+    "PAY_BTN" : "ادفع",
+    "CUSTOMER_NUMBER" : "رقم العميل",
+    "ADSL_PHONE" : "رقم ال ADSL",
+    "AREA_CODE" : "كود المنطقة",
+    "INVALID_MOBILE_LENGTH":"رقم موبايل غير صحيح",
+    "ROUTER_INSTALLATION_MSG":"يمكن لتي.اي.داتا ارسال مندوب فني لتوصيل الخدمة مع يداية الاشتراك و سعر هذه الخدمة 75 جنيه."
+  },
+
+  "TICKETING": {
+    "TICKETING_LIST": {
+      "TITLE": "مساعدات تقنية",
+      "TAB_OPEN": "قيد التنفيذ",
+      "TAB_CLOSED": "مغلقة",
+      "TICKET_STATUS": "حالة الشكوى",
+      "NO_TICKETS":"عدد الطلبات المقدمة 0."
+    },
+    "TICKETING_DETAILS":{
+      "TITLE":"تفاصيل الشكوى",
+      "TICKET_NUMBER":"رقم الشكوى",
+      "PROBLEM_TITLE":"إسم الشكوى الفني",
+      "PROBLEM_TYPE":"عنوان المشكلة",
+      "DONE_BY":"المصدر",
+      "STATUS":"حالة الشكوى",
+      "REQUEST_DATE":"تاريخ الشكوى",
+      "CLOSURE_DATE":"تاريخ إنتهاء نظر الشكوى",
+      "COMMENTS":"تعليقات على الشكوى",
+      "COMMENT_PLACEHOLDER":"اكتب التعليق هنا...",
+      "COMMENT_BUTTON":"أضف تعليق"
+    },
+    "TICKETING_CREATION":
+    {
+      "OPENED_TICKET_MESSAGE":"يوجد شكوى بعنوان <span>{{TT}}</span>لم يتيم غلقها بعد . برجاء الرجوع إلى الشكوى الفنية رقم <span>{{TN}}</span>لإضافة طلبك أو  لرؤية الشكوى",
+      "TITLE":"تقدم بشكوى تقنية",
+      "MOBILE":"الهاتف المحمول",
+      "PROBLEM_TITLE":"وصف المشكلة",
+      "PROBLEM_TYPE":"عنوان المشكلة",
+      "PROBLEM_DESCRIPTION":"نوع المشكلة...",
+      "SUBMIT":"قدم الطلب الآن",
+      "ADD_TICKET":"قدم شكوى",
+      "CLICK_HERE":"إضغط هنا",
+      "SUSPENDED_USER":"هذا الإشتراك موقوف. برجاء إعادة تشغيل الخدمة لتتمكن من تقديم الشكوى أو إتصل بـ111 أو استعمال الدعم الفني الحي للمساعدة",
+      "PROBLEM_TYPE_LIST":[
+        {"TEXT":"اختار نوع المشكلة",
+          "VALUE":""},
+
+        {"TEXT":"الهاتف وخدمة الإنترنت لا يعملان",
+          "VALUE":"الهاتف وخدمة الإنترنت لا يعملان"},
+
+        {"TEXT":"مشكلة خاصة بخدمة الإنترنت",
+          "VALUE":"مشكلة خاصة بخدمة الإنترنت"},
+
+        {"TEXT":"مشكلة خاصة بالهاتف",
+          "VALUE":"مشكلة خاصة بالهاتف"},
+
+        {"TEXT":"السرعة بطيئة",
+          "VALUE":"السرعة بطيئة"},
+
+        {"TEXT":"مشكلة في الخدمة",
+          "VALUE":"مشكلة في الخدمة"},
+
+        {"TEXT":"Static IP Problem",
+          "VALUE":"Static IP Problem"},
+
+        {"TEXT":"زيارة فنية",
+          "VALUE":"زيارة فنية"},
+
+        {"TEXT":"مشكلة في خدمة الإنترنت العائلي",
+          "VALUE":"مشكلة في خدمة الإنترنت العائلي"},
+
+        {"TEXT":"أخرى",
+          "VALUE":"أخرى"}
+      ]
+    }
+  },
+
+  "REQUEST_OPTION_PACK": {
+    "REQUEST_OPTION": {
+      "TITLE": "طلب الاوبشن باك",
+      "REQUEST_OPTION_PACK": "طلب الاوبشن باك (Option Pack)",
+      "OPTION_PACK": "الاوبشن باك",
+      "OPTION_PACK_DESCRIPTION": "وصف الاوبشن باك",
+      "SUBSCRIPTION_PERIOD": "الفترة الاشتراك/شهريا",
+      "SUBSCRIBE": "اشترك الان",
+      "INELIGIBLE_MSG":"للأسف هذه الخدمة غير متاحة لهذا الإشتراك، برجاء الاتصال بـ 111 أو استعمال الدعم الفني الحي للمزيد من المعلومات.",
+      "AVAILABLE_OPTION_PACK_LIST":[
+        {
+          "OPTION_PACK_PACKAGE_TYPE_ID":"71",
+          "DESCRIPTION":"عدد 1 IP ثابت",
+          "MSG":""
+        },
+        {
+          "OPTION_PACK_PACKAGE_TYPE_ID":"281",
+          "DESCRIPTION":"عدد 5 IP ثابت و 5 بريد إليكتروني",
+          "MSG":"خدمة الأوبشن باك (Option Pack) التي طلبتها تتضمن خدمات النطاق والإستضافة (Domain and Hosting) وهي مجانية. لذا برجاء زيارة أقرب فرع لتي إي داتا للحصول عليهما. للمزيد من المعلومات برجاء الإتصال بـ19777"
+        },
+        {
+          "OPTION_PACK_PACKAGE_TYPE_ID":"282",
+          "DESCRIPTION":"عدد 13 IP ثابت و 10 بريد إليكتروني",
+          "MSG":"خدمة الأوبشن باك (Option Pack) التي طلبتها تتضمن خدمات النطاق والإستضافة (Domain and Hosting) وهي مجانية. لذا برجاء زيارة أقرب فرع لتي إي داتا للحصول عليهما. للمزيد من المعلومات برجاء الإتصال بـ19777"
+        }
+      ]
+    },
+    "REQUEST_OPTION_PAY":{
+      "TITLE": "طلب الاوبشن باك",
+      "PAYMENT_CONFIRMATION":"تفاصيل عملية الدفع",
+      "SERVICE":"الخدمة",
+      "PERIOD":"مدة الاشتراك",
+      "TOTAL":"اجمالي المبلغ",
+      "PAY_NOW":"ادفع الان"
+    }
+  },
+
+  "COMPLAINTS": {
+    "COMPLAINT_TEXT": "الشكاوي",
+    "COMPLAINT_TEXT2": "طلب شكوى",
+    "COMPLAINT_TYPE": "نوع الشكوي",
+    "COMPLAINTDESC": "وصف الشكوي...",
+    "SUBMITCOMPLAINT": "قدم الشكوي الان",
+    "COMPLAINTCONFIRMATION": "\u062A\u0645 \u062A\u0633\u062C\u064A\u0644 \u0634\u0643\u0648\u0627\u0643 \u0628\u0646\u062C\u0627\u062D \u0648 \u0633\u064A\u062A\u0645 \u0627\u0644\u0627\u062A\u0635\u0627\u0644 \u0628\u0643 \u0642\u0631\u064A\u0628\u0627."
+  },
+
+  "SuspendReactivate": {
+    "SuspensionReactivateHeaderText" : "اعادة تشغيل / ايقاف",
+    "ReactivationHeaderText" : "طلب تفعيل خدمة",
+    "SuspensionHeaderText" : "طلب ايقاف خدمة",
+    "SuspensionButtonText": "ايقاف الخدمة",
+    "ActivationButtonText": "اعادة تشغيل الخدمة",
+    "SuspensionText" : "يمكنك كعميل أن تتقدم بطلب إيقاف الخدمة مؤقتا مقابل 30 جنيه شهريا وتجدد شهريا. مع العلم بأن الخدمة سوف تكون متاحة عند طلب إعادة التشغيل.",
+    "ActivateText" : "يمكنك كعميل تي إي داتا إعادة تشغيل الخدمة من خلال الضغط على إعادة التشغيل إعادة تشغيل الخدمة سيكون لمدة 48 ساعة وذلك لإتاحة الفرصة لك لزيارة أحد فروع تي إي داتا لتجديد إشتراكك وستكون مدة إعادة التشغيل جزءا من فترة الإشتراك التي تم تجديدها .لمعرفة المزيد عن فروع تي إي داتا برجاء الضغط على رابط 'مكاتب خدمة العملاء' وقم بالتجديد في أقرب فرع لك .وتذكر دائما أننا دائما سعداء بمساعدتك في حالة وجود أية استفسارات من خلال 111.",
+    "ConfimationSuspendMsg":"هل أنت متأكد من رغبتك في إيقاف الخدمة الآن ؟",
+    "ConfimationActivateMsg" :"هل أنت متأكد من رغبتك في إعادة تشغيل الخدمة الآن ؟",
+    "ConfirmMsgSuspend":"طلب إيقاف الخدمة تم بنجاح.",
+    "ConfirmMsgSuspend2":"للمتابعة مع تى اى داتا احتفظ بهذا الرقم ",
+    "ConfirmMsgActivation":"سيتم إعادة تشغيل الخدمة لمدة 48 ساعة. برجاء تجديد الإشتراك خلال 48 ساعة لضمان استمرار الخدمة.",
+    "ConfirmMsgActivation2":"للمتابعة مع تى اى داتا احتفظ بهذا الرقم ",
+    "NOTxt" : "لا",
+    "YESTxt" : "نعم",
+    "GOHomeTxt" : "الرئيسية"
+
+  },
+
+  "Nearest_Branches": {
+    "NearestBranchesTitle" : "أقرب منفذ بيع",
+    "NearestBranchesAddressText" : "العنوان",
+    "NearestBranchesPhoneText" : "التليفون",
+    "NearestBranchesMenu" : "ايجاد أقرب منفذ بيع",
+    "LoadMoreText" : "اعرض المزيد"
+  },
+
+  "DIALOG" : {
+    "DIALOGMESSAGE": "هل أنت متأكد انك تريد قطع الخدمة؟",
+    "DIALOGYES": "نعم",
+    "DIALOGNO": "لأ"
+  }
+
+}
+
+

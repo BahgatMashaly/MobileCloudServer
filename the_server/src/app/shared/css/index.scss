@@ -1,0 +1,65 @@
+﻿body {
+}
+
+.slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.slide.ng-enter,
+.slide.ng-leave {
+    -webkit-transition: all 35s ease;
+    -moz-transition: all 35s ease;
+    -o-transition: all 35s ease;
+    transition: all 35s ease;
+}
+.slide.ng-enter {
+
+    left: 100%;  
+}
+.slide.ng-enter-active {
+    left: 50%;
+}
+.slide.ng-leave {
+    left: 0;
+}
+.slide.ng-leave-active {
+    left: -100%;
+}
+
+.myButton
+{
+    border-radius: 10px;
+  min-width: 120px;
+}
+
+span.groupBox{
+    display: inline-table;
+text-align: center;
+margin: 20px;
+border-width: 1px !important;
+border: gray;
+border-style: solid;
+border-radius: 20px;
+padding: 7px;
+}
+
+
+ .centerOfThreeButtons{
+    margin-left: 15px;
+margin-right: 15px;
+}
+
+ .secondButtonOfTwo{
+     margin-left:15px;
+ }
+
+
+ table.dataTable thead th, table.dataTable thead td {
+   color:#1c94c4;
+border: 1px solid #cccccc;
+  background: #f6f6f6 url("images/ui-bg_glass_100_f6f6f6_1x400.png") 50% 50% repeat-x;
+}
+

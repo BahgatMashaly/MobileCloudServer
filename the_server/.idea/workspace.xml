@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05498ed4-edf8-4078-8034-bb728a5f8a00" name="Default" comment="" />
+    <ignored path="untitled1.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="untitled1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1995">
+              <caret line="105" column="14" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="socketSenderManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/Modules/socketSender/socketSenderManager.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="socketReceiver.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/Modules/socketReceiver/socketReceiver.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tcpReceiver.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/Modules/tcpReceiver/tcpReceiver.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node-buffer-stub.js" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/javascript/nodejs/library/node-buffer-stub.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3572">
+              <caret line="188" selection-start-line="188" selection-end-line="188" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tcp_sender/takeContacts</find>
+      <find>firest_error_when_sent_to_provider_or_tcp_sending_error</find>
+      <find>or  device_mac_Addr =</find>
+      <find>from deviceRegisteredPushNotifications</find>
+      <find>update  deviceRegisteredPushNotifications</find>
+      <find>update  deviceRegisteredPushNotifications  set projectPackageNameBundleID='</find>
+      <find>select * from deviceRegisteredPushNotifications where  device_os</find>
+      <find>Cluster2</find>
+      <find>Cluste</find>
+      <find>butt</find>
+      <find>iv_string_base64</find>
+      <find>select</find>
+      <find>result</find>
+      <find>send_files</find>
+      <find>map</find>
+      <find>google</find>
+      <find>initMap</find>
+      <find>&quot;File</find>
+      <find>@File</find>
+      <find>tcp_send_filex</find>
+      <find>fileChangeEvent</find>
+      <find>fileToUpload</find>
+      <find>BodyAsIs</find>
+      <find>tcp_sender</find>
+      <find>file</find>
+      <find>Buffer</find>
+      <find>multer</find>
+      <find>gyp</find>
+      <find>mys</find>
+      <find>copy</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>?.Myconfig</replace>
+      <replace>e?.Myconfig</replace>
+      <replace>globalVariables.</replace>
+      <replace>this.DataTable.</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/app/shared/myLib/BootstrapModal</dir>
+      <dir>$PROJECT_DIR$/src/app</dir>
+      <dir>$PROJECT_DIR$/server/Modules/Login</dir>
+      <dir>$PROJECT_DIR$/node_modules/ionic-angular</dir>
+      <dir>$PROJECT_DIR$/node_modules</dir>
+      <dir>$PROJECT_DIR$/www</dir>
+      <dir>$PROJECT_DIR$/src/app/shared/myLib</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/src/app/moduls</dir>
+      <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$/server/Modules</dir>
+      <dir>$PROJECT_DIR$/server</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/shared/myLib/customHTTP/AngularRest.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/myLib/BootstrapModal/ngPopupStyle.scss" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/src/app/main.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/others_servicesAndStatic/SV.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/myLib/BootstrapModal/ModalConfig.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/myLib/BootstrapModal/BootstrapModal.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/myLib/BootstrapModal/ModalBackdrop.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/others_servicesAndStatic/prefsItem.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/libraries/Lib.ts" />
+        <option value="$PROJECT_DIR$/sass.config.js" />
+        <option value="$PROJECT_DIR$/src/app/moduls/login/login.scss" />
+        <option value="$PROJECT_DIR$/src/app/moduls/Projects/newEditProject.html" />
+        <option value="$PROJECT_DIR$/src/app/moduls/Projects/newEditProject.scss" />
+        <option value="$PROJECT_DIR$/src/app/app.scss" />
+        <option value="$PROJECT_DIR$/src/theme/variables.scss" />
+        <option value="$PROJECT_DIR$/server/Modules/MobileServerUpdate/Project.js" />
+        <option value="$PROJECT_DIR$/src/app/moduls/Projects/newEditProject.ts" />
+        <option value="$PROJECT_DIR$/src/app/moduls/Projects/Projects.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/myLib/BootstrapModal/ModalDialogInstance.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/myLib/BootstrapModal/BootstrapModalContainer.ts" />
+        <option value="$PROJECT_DIR$/src/app/moduls/project_customer_customers_info_urls/project_customer_customers_info_urls.ts" />
+        <option value="$PROJECT_DIR$/src/app/moduls/project_customer_customers_info_urls/setupDataTable.ts" />
+        <option value="$PROJECT_DIR$/server/Modules/devicesServerFrontEnd/devicesServerFrontEndManager.js" />
+        <option value="$PROJECT_DIR$/src/app/moduls/sendActionToClients/sendActionToClients.html" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/app/shared/myLib/socket/ClientSocketforAnyProject.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/myLib/socket/ClientSocketCustomMethodsForThisProject.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/others_servicesAndStatic/globalVariables.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/myLib/recorderjs/audioCommands.ts" />
+        <option value="$PROJECT_DIR$/src/app/moduls/Main/Main.html" />
+        <option value="$PROJECT_DIR$/src/app/moduls/Main/Main.ts" />
+        <option value="$PROJECT_DIR$/server_hanfy/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js" />
+        <option value="$PROJECT_DIR$/src/app/moduls/Map/Map.ts" />
+        <option value="$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js" />
+        <option value="$PROJECT_DIR$/server/Modules/tcpSender/android.js" />
+        <option value="$PROJECT_DIR$/server/SV.js" />
+        <option value="$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js" />
+        <option value="$PROJECT_DIR$/server/Modules/socketReceiver/socketReceiver.js" />
+        <option value="$PROJECT_DIR$/server/Modules/MobilePushNotification/MobilePushNotificatonManager.js" />
+        <option value="$PROJECT_DIR$/server/Modules/Login/LoginManager.js" />
+        <option value="$PROJECT_DIR$/src/declarations.d.ts" />
+        <option value="$PROJECT_DIR$/src/app/moduls/login/login.ts" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/app/moduls/sendActionToClients/sendActionToClients.ts" />
+        <option value="$PROJECT_DIR$/server/MyLib/ADO.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server/Modules/tcpReceiver/tcpReceiver.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="825" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSUnusedAssignment</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="the_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_server" type="462c0819:PsiDirectoryNode" />
+              <item name="0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_server" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_server" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_server" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="tcpReceiver" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="javascript.nodejs.core.library.configured.version" value="5.0.0" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="typescript-compiler-editor-notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/www/build" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/app/shared" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/www/lib/fonts" />
+      <recent name="$PROJECT_DIR$/app/shared/myLib/recorderjs" />
+      <recent name="$PROJECT_DIR$/app/moduls" />
+      <recent name="$PROJECT_DIR$/app/moduls/Projects" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.bin\www">
+    <configuration name="JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:3000/">
+      <mapping url="webpack://D:\Programing\programing9\ionic2\n25\NodeIonicProject" local-file="$PROJECT_DIR$" />
+      <mapping url="http://localhost:3000/www" local-file="$PROJECT_DIR$/www" />
+    </configuration>
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.JavaScript" />
+      <item itemvalue="Node.js.bin\www" />
+      <item itemvalue="npm.start" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05498ed4-edf8-4078-8034-bb728a5f8a00" name="Default" comment="" />
+      <created>1451752252352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1451752252352</updated>
+      <workItem from="1458919281603" duration="359000" />
+      <workItem from="1458920566956" duration="144161000" />
+      <workItem from="1459328703294" duration="103173000" />
+      <workItem from="1459681957532" duration="11995000" />
+      <workItem from="1459766094792" duration="3943000" />
+      <workItem from="1460275323674" duration="67804000" />
+      <workItem from="1460914503052" duration="77000" />
+      <workItem from="1460921003793" duration="9942000" />
+      <workItem from="1461219168627" duration="446000" />
+      <workItem from="1461220229891" duration="8189000" />
+      <workItem from="1462272800931" duration="2388000" />
+      <workItem from="1463304432613" duration="7328000" />
+      <workItem from="1463331642218" duration="62718000" />
+      <workItem from="1463682207508" duration="79525000" />
+      <workItem from="1464031220358" duration="3383000" />
+      <workItem from="1464073001341" duration="10673000" />
+      <workItem from="1464256400225" duration="425000" />
+      <workItem from="1464262462061" duration="3139000" />
+      <workItem from="1464275700107" duration="7000" />
+      <workItem from="1464275743649" duration="39000" />
+      <workItem from="1464275963985" duration="29000" />
+      <workItem from="1464277054046" duration="1253000" />
+      <workItem from="1464510599895" duration="812000" />
+      <workItem from="1464521533190" duration="174000" />
+      <workItem from="1464521829097" duration="37000" />
+      <workItem from="1464525500887" duration="1294000" />
+      <workItem from="1464695963127" duration="9795000" />
+      <workItem from="1464881618850" duration="1344000" />
+      <workItem from="1465110767520" duration="2011000" />
+      <workItem from="1465134605731" duration="4448000" />
+      <workItem from="1465212082543" duration="2627000" />
+      <workItem from="1465674073775" duration="524000" />
+      <workItem from="1465757333346" duration="1548000" />
+      <workItem from="1465800520361" duration="133000" />
+      <workItem from="1465800770221" duration="51000" />
+      <workItem from="1465800833941" duration="73963000" />
+      <workItem from="1466324829450" duration="3742000" />
+      <workItem from="1466626274480" duration="5101000" />
+      <workItem from="1466686308740" duration="675000" />
+      <workItem from="1466707872938" duration="1616000" />
+      <workItem from="1466927345825" duration="681000" />
+      <workItem from="1466931026159" duration="811000" />
+      <workItem from="1467094489031" duration="1109000" />
+      <workItem from="1467545956613" duration="127000" />
+      <workItem from="1467986199497" duration="665000" />
+      <workItem from="1468930140267" duration="6559000" />
+      <workItem from="1471506854903" duration="9223000" />
+      <workItem from="1472461897437" duration="933000" />
+      <workItem from="1472548162869" duration="3856000" />
+      <workItem from="1472976582309" duration="7690000" />
+      <workItem from="1473070932540" duration="8642000" />
+      <workItem from="1475136286085" duration="651000" />
+      <workItem from="1476775823476" duration="30898000" />
+      <workItem from="1477655455633" duration="24000" />
+      <workItem from="1477658854519" duration="107000" />
+      <workItem from="1477659051505" duration="66000" />
+      <workItem from="1477659163730" duration="22374000" />
+      <workItem from="1478428528776" duration="2068000" />
+      <workItem from="1480478801702" duration="871000" />
+      <workItem from="1480840487733" duration="1829000" />
+      <workItem from="1481635511365" duration="951000" />
+      <workItem from="1481940039220" duration="3696000" />
+      <workItem from="1482410281313" duration="423000" />
+      <workItem from="1483451016643" duration="3510000" />
+      <workItem from="1485616302619" duration="420000" />
+      <workItem from="1485766390392" duration="2621000" />
+      <workItem from="1485851436443" duration="16384000" />
+      <workItem from="1485881738528" duration="18873000" />
+      <workItem from="1486109009721" duration="1716000" />
+      <workItem from="1486148846006" duration="3430000" />
+      <workItem from="1487195795925" duration="3913000" />
+      <workItem from="1488551786287" duration="2495000" />
+      <workItem from="1488647606982" duration="440000" />
+      <workItem from="1489406738341" duration="12962000" />
+      <workItem from="1489750279979" duration="4862000" />
+      <workItem from="1491400339280" duration="2357000" />
+      <workItem from="1491985409912" duration="1197000" />
+      <workItem from="1493664783777" duration="549000" />
+      <workItem from="1495451078327" duration="360000" />
+      <workItem from="1503431941531" duration="5808000" />
+      <workItem from="1503556831474" duration="4531000" />
+      <workItem from="1503561478134" duration="3178000" />
+      <workItem from="1503565047733" duration="16391000" />
+      <workItem from="1503638409063" duration="12536000" />
+      <workItem from="1503677806890" duration="741000" />
+      <workItem from="1503678664760" duration="13848000" />
+      <workItem from="1503924503816" duration="17006000" />
+      <workItem from="1504086961873" duration="607000" />
+      <workItem from="1505044255351" duration="137000" />
+      <workItem from="1507119363063" duration="682000" />
+      <workItem from="1509122199260" duration="3784000" />
+      <workItem from="1509357370736" duration="21224000" />
+      <workItem from="1509696032639" duration="1540000" />
+      <workItem from="1510598922371" duration="3025000" />
+      <workItem from="1510921864191" duration="637000" />
+      <workItem from="1511075825558" duration="12454000" />
+      <workItem from="1511884722355" duration="1337000" />
+      <workItem from="1511902336798" duration="1077000" />
+      <workItem from="1511905152816" duration="1507000" />
+      <workItem from="1518515739528" duration="866000" />
+      <workItem from="1520971947924" duration="2398000" />
+      <workItem from="1521210943356" duration="3675000" />
+      <workItem from="1521273025126" duration="5802000" />
+      <workItem from="1521756748480" duration="17000" />
+      <workItem from="1525993871843" duration="115000" />
+      <workItem from="1525994006682" duration="1415000" />
+      <workItem from="1526114479936" duration="586000" />
+      <workItem from="1545054106970" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="948163000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="825" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.50187266" visible="true" weight="0.25440452" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49713877" weight="0.3253012" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24453841" side_tool="true" weight="0.19674355" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="1" sideWeight="0.49812734" side_tool="true" weight="0.18675123" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8301621" weight="0.17671233" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.24947146" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.7554616" visible="true" weight="0.028846154" />
+      <window_info id="Favorites" order="2" sideWeight="0.44741532" side_tool="true" weight="0.19943622" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.63284004" weight="0.690411" />
+      <window_info anchor="bottom" id="TypeScript" order="7" weight="0.3292517" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TypeScript Compiler" order="8" sideWeight="0.7711016" weight="0.4684564" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" x="68" y="155" width="1240" height="637" id="Documentation" order="3" type="FLOATING" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46018323" weight="0.31506848" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>mock://webpack:///C:/Users/Bahgat/WebstormProjects/NodeIonicProject/www/app/app.ts</url>
+          <line>13</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>mock://webpack:///C:/Users/Bahgat/WebstormProjects/NodeIonicProject/www/app/app.ts</url>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>mock://webpack:///app.bundle.js</url>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/wwwxxxvvvvvvvvv/lib/DataTables/extensions/TableTools/js/dataTables.tableTools.js</url>
+          <line>2852</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/Buses_Main_Info/Buses_Main_InfoManager.js</url>
+          <line>42</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/Buses_Main_Info/Buses_Main_InfoManager.js</url>
+          <line>44</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/Buses_Main_Info/Buses_Main_InfoManager.js</url>
+          <line>10</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/Buses_Main_Info/Buses_Main_InfoManager.js</url>
+          <line>32</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/Buses_Main_Info/Buses_Main_InfoManager.js</url>
+          <line>69</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/Buses_Routes/Buses_RoutesManager.js</url>
+          <line>94</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/Buses_Routes/Buses_RoutesManager.js</url>
+          <line>101</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/Buses_Routes/Buses_RoutesManager.js</url>
+          <line>97</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/moduls/Projectsxxxx/Projects.ts</url>
+          <line>119</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/Exams/ExamsManager.js</url>
+          <line>42</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/moduls/Projectszzz/questions.ts</url>
+          <line>84</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/questions/questionsManager.js</url>
+          <line>105</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/questions/questionsManager.js</url>
+          <line>104</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/questions/questionsManager.js</url>
+          <line>86</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/moduls/Projectszzz/EditNewQ.ts</url>
+          <line>72</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/questions/questionsManager.js</url>
+          <line>37</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/questions/questionsManager.js</url>
+          <line>206</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/questions/questionsManager.js</url>
+          <line>207</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/questions/questionsManager.js</url>
+          <line>209</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/questions/questionsManager.js</url>
+          <line>215</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/questions/questionsManager.js</url>
+          <line>220</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/questions/questionsManager.js</url>
+          <line>214</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/LoginMobile/Manager_login.js</url>
+          <line>17</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/LoginMobile/Manager_login.js</url>
+          <line>24</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/LoginMobile/Manager_login.js</url>
+          <line>20</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/LoginMobile/Manager_login.js</url>
+          <line>211</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/moduls/Projects/newEditProject.ts</url>
+          <line>129</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/moduls/Projects/newEditProject.ts</url>
+          <line>95</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/ProjectsServerFrontEnd/ProjectsServerFrontEndManager.js</url>
+          <line>133</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/MobileServerUpdate/Mediator.js</url>
+          <line>113</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../../buses/6-add jwt/tryModal/app.js</url>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/sequelize/lib/sequelize.js</url>
+          <line>575</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/ProjectsServerFrontEnd/ProjectsServerFrontEndManager.js</url>
+          <line>109</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/ProjectsServerFrontEnd/ProjectsServerFrontEndManager.js</url>
+          <line>106</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/ProjectsServerFrontEnd/ProjectsServerFrontEndManager.js</url>
+          <line>104</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/moduls/Projects/newEditProject.ts</url>
+          <line>84</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/MobileServerUpdate/MobileServerUpdateManager.js</url>
+          <line>84</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/MobilePushNotification/MobilePushNotificatonManager.js</url>
+          <line>32</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/MobilePushNotification/MobilePushNotificatonManager.js</url>
+          <line>44</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/MobilePushNotification/MobilePushNotificatonManager.js</url>
+          <line>49</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/MobilePushNotification/MobilePushNotificatonManager.js</url>
+          <line>65</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/moduls/Main/Main.ts</url>
+          <line>400</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>268</line>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>179</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>197</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>387</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>389</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>388</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>386</line>
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/shared/myLib/socket/ClientSocketforAnyProject.ts</url>
+          <line>15</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>253</line>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>246</line>
+          <option name="timeStamp" value="468" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>55</line>
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/socketReceiver/socketReceiver.js</url>
+          <line>121</line>
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/socketReceiver/socketReceiver.js</url>
+          <line>126</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>365</line>
+          <option name="timeStamp" value="542" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpReceiver/tcpReceiver.js</url>
+          <line>143</line>
+          <option name="timeStamp" value="547" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/moduls/Projects/newEditProject.ts</url>
+          <line>224</line>
+          <option name="timeStamp" value="582" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>187</line>
+          <option name="timeStamp" value="655" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>242</line>
+          <option name="timeStamp" value="675" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/socketReceiver/socketReceiver.js</url>
+          <line>106</line>
+          <option name="timeStamp" value="785" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/socketReceiver/socketReceiver.js</url>
+          <line>105</line>
+          <option name="timeStamp" value="786" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/socketReceiver/socketReceiver.js</url>
+          <line>103</line>
+          <option name="timeStamp" value="788" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/socketReceiver/socketReceiver.js</url>
+          <line>84</line>
+          <option name="timeStamp" value="795" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/shared/myLib/recorderjs/audioCommands.ts</url>
+          <line>181</line>
+          <option name="timeStamp" value="810" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpReceiver/tcpReceiver.js</url>
+          <line>85</line>
+          <option name="timeStamp" value="839" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>490</line>
+          <option name="timeStamp" value="861" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>479</line>
+          <option name="timeStamp" value="862" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/moduls/sendActionToClients/sendActionToClients.ts</url>
+          <line>437</line>
+          <option name="timeStamp" value="872" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpReceiver/tcpReceiver.js</url>
+          <line>241</line>
+          <option name="timeStamp" value="881" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>133</line>
+          <option name="timeStamp" value="892" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>201</line>
+          <option name="timeStamp" value="893" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/xxgulpfile.js</url>
+          <line>60</line>
+          <option name="timeStamp" value="899" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/devicesServerFrontEnd/devicesServerFrontEndManager.js</url>
+          <line>100</line>
+          <option name="timeStamp" value="903" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/devicesServerFrontEnd/devicesServerFrontEndManager.js</url>
+          <line>150</line>
+          <option name="timeStamp" value="905" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/devicesServerFrontEnd/devicesServerFrontEndManager.js</url>
+          <line>208</line>
+          <option name="timeStamp" value="906" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/devicesServerFrontEnd/devicesServerFrontEndManager.js</url>
+          <line>163</line>
+          <option name="timeStamp" value="907" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/devicesServerFrontEnd/devicesServerFrontEndManager.js</url>
+          <line>34</line>
+          <option name="timeStamp" value="912" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/MobilePushNotification/MobilePushNotificatonManager.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="919" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/MobilePushNotification/MobilePushNotificatonManager.js</url>
+          <line>104</line>
+          <option name="timeStamp" value="921" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/MobilePushNotification/MobilePushNotificatonManager.js</url>
+          <line>84</line>
+          <option name="timeStamp" value="926" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/MobilePushNotification/MobilePushNotificatonManager.js</url>
+          <line>154</line>
+          <option name="timeStamp" value="927" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/ProjectsServerFrontEnd/ProjectsServerFrontEndManager.js</url>
+          <line>91</line>
+          <option name="timeStamp" value="928" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>266</line>
+          <option name="timeStamp" value="955" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>16</line>
+          <option name="timeStamp" value="987" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="993" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>185</line>
+          <option name="timeStamp" value="1021" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/ios.js</url>
+          <line>85</line>
+          <option name="timeStamp" value="1027" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/ios.js</url>
+          <line>334</line>
+          <option name="timeStamp" value="1039" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/ios.js</url>
+          <line>154</line>
+          <option name="timeStamp" value="1041" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/ios.js</url>
+          <line>178</line>
+          <option name="timeStamp" value="1042" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>265</line>
+          <option name="timeStamp" value="1044" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>264</line>
+          <option name="timeStamp" value="1045" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/ios.js</url>
+          <line>90</line>
+          <option name="timeStamp" value="1046" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/ios.js</url>
+          <line>169</line>
+          <option name="timeStamp" value="1047" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/ios.js</url>
+          <line>325</line>
+          <option name="timeStamp" value="1048" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/ios.js</url>
+          <line>314</line>
+          <option name="timeStamp" value="1049" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>306</line>
+          <option name="timeStamp" value="1064" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>330</line>
+          <option name="timeStamp" value="1066" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/ios.js</url>
+          <line>51</line>
+          <option name="timeStamp" value="1072" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/ios.js</url>
+          <line>43</line>
+          <option name="timeStamp" value="1073" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/ios.js</url>
+          <line>100</line>
+          <option name="timeStamp" value="1082" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/MobilePushNotification/MobilePushNotificatonManager.js</url>
+          <line>18</line>
+          <option name="timeStamp" value="1093" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/MobilePushNotification/MobilePushNotificatonManager.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="1094" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/MobilePushNotification/MobilePushNotificatonManager.js</url>
+          <line>17</line>
+          <option name="timeStamp" value="1099" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/devicesServerFrontEnd/devicesServerFrontEndManager.js</url>
+          <line>99</line>
+          <option name="timeStamp" value="1103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/shared/myLib/BootstrapModal/BootstrapModalContainer.ts</url>
+          <line>108</line>
+          <option name="timeStamp" value="1106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/shared/myLib/BootstrapModal/BootstrapModalContainer.ts</url>
+          <line>338</line>
+          <option name="timeStamp" value="1115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/Login/LoginManager.js</url>
+          <line>74</line>
+          <option name="timeStamp" value="1117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/Login/LoginManager.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="1118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/devicesServerFrontEnd/devicesServerFrontEndManager.js</url>
+          <line>238</line>
+          <option name="timeStamp" value="1120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/devicesServerFrontEnd/devicesServerFrontEndManager.js</url>
+          <line>240</line>
+          <option name="timeStamp" value="1124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/devicesServerFrontEnd/devicesServerFrontEndManager.js</url>
+          <line>185</line>
+          <option name="timeStamp" value="1125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/devicesServerFrontEnd/devicesServerFrontEndManager.js</url>
+          <line>271</line>
+          <option name="timeStamp" value="1126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>125</line>
+          <option name="timeStamp" value="1128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>126</line>
+          <option name="timeStamp" value="1129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js</url>
+          <line>127</line>
+          <option name="timeStamp" value="1130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/android.js</url>
+          <line>44</line>
+          <option name="timeStamp" value="1133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/android.js</url>
+          <line>48</line>
+          <option name="timeStamp" value="1136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>28</line>
+          <option name="timeStamp" value="1137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>143</line>
+          <option name="timeStamp" value="1138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/MyLib/ADO.js</url>
+          <line>112</line>
+          <option name="timeStamp" value="1141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>295</line>
+          <option name="timeStamp" value="1144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>297</line>
+          <option name="timeStamp" value="1145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>291</line>
+          <option name="timeStamp" value="1146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js</url>
+          <line>292</line>
+          <option name="timeStamp" value="1147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/multer/index.js</url>
+          <line>38</line>
+          <option name="timeStamp" value="1148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/multer/lib/make-error.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="1149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/busboy/lib/types/multipart.js</url>
+          <line>212</line>
+          <option name="timeStamp" value="1150" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1151" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="x" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server/Modules/socketReceiver/socketReceiver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2033">
+          <caret line="107" column="14" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Modules/tcpSender/android.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/SV.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Modules/MobilePushNotification/MobilePushNotificatonManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/shared/myLib/socket/ClientSocketCustomMethodsForThisProject.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/shared/myLib/socket/ClientSocketforAnyProject.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/shared/others_servicesAndStatic/globalVariables.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="12" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/shared/myLib/customExceptionHandler.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="79" column="22" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/Crypto/cipher-core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13129">
+          <caret line="691" column="8" selection-start-line="691" selection-start-column="8" selection-end-line="691" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Modules/Login/Manager_login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Modules/Login/LoginManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/moduls/login/login.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typings/CryptoJS/cryptojs.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="23" selection-start-line="10" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Modules/pushNotificationServerFrontEnd/pushNotificationServerFrontEndManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7923">
+          <caret line="422" column="52" selection-start-line="422" selection-start-column="15" selection-end-line="422" selection-end-column="52" />
+          <folding>
+            <element signature="e#8475#8593#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Modules/devicesServerFrontEnd/devicesServerFrontEndManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/moduls/Map/Map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/moduls/Map/Map.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typings/googlemaps/google.maps.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="75" lean-forward="true" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/declarations.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/moduls/sendActionToClients/setupDataTable.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/moduls/sendActionToClients/sendActionToClients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libraries/Lib.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3249">
+          <caret line="184" column="22" selection-start-line="184" selection-start-column="14" selection-end-line="184" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/AllRouetsCalling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/moduls/sendActionToClients/sendActionToClients.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="869" column="71" selection-start-line="869" selection-start-column="54" selection-end-line="869" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/MyLib/ADO.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="14" column="132" selection-start-line="14" selection-start-column="132" selection-end-line="14" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Modules/tcpSender/tcpSenderManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="290" column="4" selection-start-line="290" selection-start-column="4" selection-end-line="290" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/dicer/lib/Dicer.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/streamsearch/lib/sbmh.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/dicer/lib/HeaderParser.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/multer/index.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/multer/lib/make-error.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/express-session/index.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/layer.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/route.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/multer/lib/make-middleware.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/busboy/lib/types/multipart.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/busboy/lib/main.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="105" column="14" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Modules/socketSender/socketSenderManager.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Modules/socketReceiver/socketReceiver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/javascript/nodejs/library/node-buffer-stub.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3572">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Modules/tcpReceiver/tcpReceiver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

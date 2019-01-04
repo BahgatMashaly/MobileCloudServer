@@ -1,0 +1,24 @@
+new-Project {
+  .item-md, .item-ios{
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  .form-item{
+    //border: 1px solid rgba(226, 6, 19, 0.27);
+    padding: 0px 4px;
+    /* border-radius: 3px; */
+    //background: rgba(226, 6, 19, 0.1);
+    margin: 0px;
+    //padding: 0px 16px;
+  }
+  .form-group{
+    margin: 0px;
+    //border-bottom: 1px solid #ccc;
+  }
+
+  .label{
+    text-align: start;
+    color: #999;
+  }
+
+}

@@ -1,0 +1,437 @@
+{
+  "LOGIN": {
+
+    "LANG": "ع",
+    "USER_NAME": "User name",
+    "PASSWORD": "Password",
+    "FORGET_PASSWORD": "Forget Password?",
+    "LOGIN": "Login",
+    "COPYRIGHT": "Copyrights © 2016 TE data.All rights reserved",
+    "INVALID_EMAIL":"Please make sure you have entered the complete email address.",
+    "INVALID_PASS":"Please enter a valid Password",
+    "EMPTY_PASS": "Please enter password",
+    "EMPTY_EMAIL":"Please enter email"
+  },
+  "FORGET_PASSWORD": {
+    "TITLE":"Forgot Password",
+    "EMAIL":"Email",
+    "FORGET_PASSWORD":"Forget Password",
+    "LBL" :"Please enter your email to receive your password.",
+    "INVALID_EMAIL":"Please make sure you have entered the complete email address.”",
+    "BTN_SEND":"Send",
+    "EMAIL_WILL_SEND":"email will be send shortly"
+  },
+
+
+  "HOME": {
+    "TITLE": "Home",
+    "WELCOME_TEXT": "Welcome ",
+    "YOU_HAVE_TEXT": "You have",
+    "DAYS_TEXT": " Days",
+
+    "REMAINING_TEXT": "Remaining",
+    "REMAINING_DAYS_TEXT": " Remaining Days ",
+    "RENEW":"Renew",
+    "RENEW_TEXT": "Renew My Subscription",
+    "USAGE_TEXT": "Usage",
+    "SINCE_TEXT": "since ",
+    "POINTS_TEXT": " points",
+    "REDEEM_TEXT": "Redeem",
+    "LOG_OUT_MSG":"Are you sure that you want to logout"
+  },
+  "RENEWAL": {
+
+    "RENEW_SUBSCRIPTION_HEADER_TEXT": "Renew Subscription",
+    "CURRENT_SERVICE_TEXT": "Service/Product",
+    "DURATION_TEXT": "Duration",
+    "PAYMENT_TXT": "payment",
+    "RRENEWAL_PERIOD":"Renewal Period/Month",
+    "AVAILABLE_PROMOTHINS":"Available Promotions(Optional)",
+    "RENEWAL_SUBSCRIPTION":"Renew Subscription ",
+    "CURRENT_SERVICE_TXT" :"Current Service ",
+    "PROCEED_TO_ON_LINE_TEXT" : "PAY",
+    "START_DATE": "Start Date",
+    "END_DATE": "End Date",
+    "RENEW_PAYMENT_CONFIRMATION":"Renew Payment Confirmation",
+    "SUBSCRIPTION_FEES":"Subscription Fees",
+    "UNPAID_USAGE_FEES":"Unpaid Usage Fees",
+    "TOTAL_FEES":"Total Fees",
+    "ACCEPT_TERMS_AND_CONDITIONS":"Accept terms & conditions",
+    "Renew":"Renew",
+    "GOTO_HOME":"GoTo Home",
+    "ALREADY_RENEWED":"You have already renewed. Do you still want to continue?",
+    "CONFIRMATION": "Confirmation"
+
+
+
+  },
+
+  "GLOBAL_MESSAGES":{
+    "NO_CONNECTION" : "No network connection",
+    "ERROR_TITLE" : "Error",
+    "ALERT_TITLE" : "Alert",
+    "RETRY":"Retry",
+    "SERVER_PROBLEM_WB":"WAS Server Access Problem,check service url, access-origin and TEData Network or call WAS Admin",
+    "SERVER_PROBLEM":"Dear valued customer we couldn’t reach our servers"
+
+  },
+
+  "REQUEST_TIMEOUT":"Dear valued customer we couldnt reach our servers due to network problems please try again later",
+  "UNRESPONSIVE_HOST":"No network connection please open your internet connection",
+  "GENERAL_ERROR":"there is error has been occurred please try again later",
+  "SERVICE_UNAVALIABLE":"The service is temporaray unavailable.Please try again later",
+  "ERROR":"Error",
+  "CANT_LOGIN":"Couldn't log-in. Please contact Customer Support.",
+  "NOT_REG_EMAIL":"The email address you entered is not a registered email.",
+  "INCORECT_CREDENTIAL":"Incorrect email or password",
+  "ACCOUNT_NOT_ACTIVE":"Your account was not activated. Please click the link sent to your email inbox.",
+  "ACCOUNT_BLACKLIST":"This account can not access this service. Please contact 111 for information.",
+  "ACCOUNT_ABUSER":"This account can not access this service. Please contact 111 for information.",
+  "EMPTY_EMAIL_PASS":"please enter E-mail and password",
+  "WRONG_EMAIL_FORMAT":"Please make sure you have entered the complete email address (e.g. myemail@tedata.net)",
+
+  "GPS_CLOSED":"Dear Valued Customer kindly open your GPS then try again.",
+  "INVALID_MOBILE_LENGTH":"Invalid mobile number",
+  "INVALID_WORK_LENGTH":"Invalid work number",
+  "INVALID_HOME_LENGTH":"Invalid home number",
+  "INVALID_FAX_LENGTH":"Invalid fax number",
+  "PLEASE_ENTER_PROBLEM_TITLE":"Please choose a Problem Title",
+  "PLEASE_ENTER_PROBLEM_DESCRIPTION":"Please enter a problem description",
+  "CHANGE_PROFILE_LANGUAGE":"You can change your preferred language of communication by editing your account information.",
+  "OPTIONPACK_NONELIGABLE":"Your Request cannot be processed. Please contact 111 or visit our nearest branch for more information",
+  "INVALID_MOBILE2_FORMAT":"Invalid Mobile 2 format",
+  "INDRECT_PROMOTION_NOTELIGABLE":"You are not eligible for this offer. For more information please contact 111 or visit your Reseller",
+
+  "HEADERTEXT": "Header",
+  "ACTIONSLABEL": "Select language",
+  "SAMPLETEXT": "This is a sample text in english.",
+  "RENEWTEXT": "Renew My Subscription",
+  "WELCOMETEXT": "Welcome ",
+  "PROMOTIONSERRORTEXT": "No Promotions",
+  "USAGEERRORTEXT": "usageErrorText",
+  "REMAININGERRORTEXT": "remainingErrorText",
+  "POINTSERRORTEXT": "pointsErrorText",
+  "NODAYSREMAININGTEXT": "NoDaysRemainingText",
+  "ADSLEXPIRTYDATETEXT": "Renewal Date",
+  "USAGEEXCEPTION": "<h1>The service is temporarily not available, please try again later</h1>",
+
+  
+  
+  "ABOUT": {
+    "TITLE": "About"
+  },
+  "CONTACT": {
+    "TITLE": "Contact",
+    "TWITTER_MESSAGE": "Follow us on Twitter"
+  },
+  "TABS": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "CONTACT": "Contact"
+  },
+
+ 
+  "MENU": {
+    "HOMEMENU": "Home",
+    "INVOICEMENU": "My Invoices",
+    "CHANGEـSPEEDـMENU": "Change Speed",
+    "RENEWMENU": "Renew Subscription",
+    "SUSPENSIONMENU": "Suspend Service",
+    "PROFILEMENU": "Profile",
+    "HELPMENU": "Help",
+    "REQUEST_ROUTER":"Request Router",
+    "REQUEST_OPTION_PACK":"Request Option Pack",
+    "NEAREST_BRANCHES_TITLE":"Find Nearest Outlets",
+    "RECHARGE_MYQUOTA_MENU":"Recharge My Quota",
+    "COMPLAIN_MENU" : "Complaints",
+    "CREATE_NEW_TICKET_MENU":"Ticketing",
+    "CALL_CENTER_NO_LIST_MENU":"Call 111"
+
+  },
+  "OPTIONS":{
+    "LOGOUTMENU": "Logout",
+    "CHANGE_LANGUAGE": "العربية"
+},
+
+
+  "INVOICES": {
+    "INVOICESHEADERTEXT": "My Invoices",
+    "CURRENT": "CURRENT",
+    "PREVIOUS": "PREVIOUS",
+    "DUETEXT": "Due:",
+    "PAIDTEXT": "PAID",
+    "NOTPAIDTEXT": "NOT PAID",
+    "INVOICESNUMBERTEXT": "Invoice Number",
+    "INVOICEDATETEXT": "Invoice Date",
+    "TOTALAMOUNTTEXT": "Total Amount (incl. taxes)",
+    "AMOUNTPAIDTEXT": "Amount Paid",
+    "AMOUNTPAIDVALUETEXT": "No",
+    "DUEDATETEXT": "Due date",
+    "RECEPITDATETEXT": "Receipts Date",
+    "INVOICESDETAILSTEXT": "Details >>",
+    "CURRENCYTEXT": "EGP",
+    "NEXTRENWALDATE": "Next Renewal Date"
+  },
+  "INVOICES DETAILS": {
+    "INVOICESDETAILSHEADERTEXT": "Invoices Details",
+    "SERVICETEXT": "Services",
+    "RECEPITTEXT": "Receipts",
+    "RECEPITNUMBERTEXT": "Receipt Number",
+    "PAYMENTLOCATION": "Payment Location",
+    "DUEAMOUNTTEXT": "Due Amount"
+  },
+  "SUSPENSION": {
+    "SUSPENSIONHEADERTEXT": "Suspend/Reactivate",
+    "SUSPENSIONPOLICYTEXT": "TEData's Suspension Policy",
+    "SUSPENSIONBUTTONTEXT": "Suspend my service",
+    "ACTIVATIONBUTTONTEXT": "Activate my service",
+    "SUSPENSIONTEXT": "As a TE Data customer, you can request to suspend your service anytime.However, there is a monthly Suspension fee of EGP30 and which is renewed at the beginning of every suspended month. Requesting suspension at a time when you do not need your internet connection guarantees that any time you ask for reactivation you will find the service available for you."
+  },
+  "CHANGE_SPEED": {
+    "CHANGESPEEDHEADER": "Change Speed",
+    "CURRENTSPEEDTEXT": "Current Speed Info",
+    "SPEEDTEXT": "Speed",
+    "STARTDATETEXT": "Start Date",
+    "ENDDATETEXT": "End Date",
+    "SELECTPROMOTIONTEXT": "Select Promotion",
+    "NEWSPEEDTEXT": "New Speed",
+    "NEWSPEEDTYPETEXT": "New Speed Type",
+    "RENEWALDURATIONTEXT": "Renewal Duration",
+    "REVIEWCHANGESTEXT": "Review Changes"
+  },
+
+  "CHANGE_SPEEND_DETAILS": {
+    "CHANGESPEEDCONFIRMATIONHEADER": "Confirmation",
+    "SUBSCRIPTIONFEESTEXT": "Subscription Fees:",
+    "UNPAIDUSAGEFEESTEXT": "Unpaid Usage Fees:",
+    "TOTALFEES": "Total Fees:",
+    "TERMSTEXT": "I accept the terms and conditions",
+    "PROCEEDTOONLINETEXT": "Proceed to Online Payment"
+  },
+
+  "PROFILE": {
+    "PROFILE_HEADER_TEXT" : "Profile",
+    "EDIT_PROFILE_TITLE" : "Edit Profile",
+    "EDIT_PROFILE_HEADER_TEXT" : "Edit Account Information",
+
+    "PERSONAL_INFO_TEXT" : "Personal Information",
+    "CONTACT_INFO_TEXT" : "Contact Information",
+    "SERVICE_INFORMATION_TEXT" : "Service Information",
+    "CUSTOMER_ID" : "Customer ID",
+    "CUSTOMER_NAME" : "Name",
+    "HOME_PHONE_AREA_CODE" : "Home Phone Area Code",
+    "WORK_PHONE_AREA_CODE" : "Work Phone Area Code",
+    "FAX_PHONE_AREA_CODE" : "Fax Phone Area Code",
+    "LANGUAGE_TEXT" : "Preferred Language",
+    "BUILDING_NUMBER" : "Building Number",
+    "STREET_NAME" : "Street Name",
+    "FLAT_NUMBER" : "Flat Number",
+    "DISTRICT" : "District/Area",
+    "CITY" : "Governorate/City",
+    "HOME_PHONE_NUMBER" : "Home Phone Number",
+    "WORK_PHONE_NUMBER" : "Work Phone Number",
+    "FAX_NUMBER" : "Fax Number",
+    "MOBILE_NUMBER1" : "Mobile#1",
+    "MOBILE_NUMBER2" : "Mobile#2",
+    "AREA_CODE" : "Area Code",
+    "ADSL_PHONE_NUMBER" : "ADSL Phone Number",
+    "CURRENT_SPEED" : "Current Speed",
+    "CUSTOMER_INFORMATION_TEXT" : "Customer Information",
+    "ADDRESS" : "Address",
+    "EMAIL_ADDRESS" : "Email Address",
+    "SAVE_PROFILE" : "Save",
+    "VERIFICATION_CODE" : "Verification Code",
+    "EXPLANATION_TEXT" : "Please enter the verification code, A verification code was sent to the mobile number you entered and you should receive it shortly. If not, please contact 111.",
+    "RESEND_CODE" : "Resend the Verification Code",
+    "SERVICE_UNAVAILABLE" : "The service is temporarily unavailable. Please try again later.",
+    "VERIFY_CODE_TEXT" : "Change Mobile Number",
+    "CHANGE_MOBILE_NUMBER" : "Change your mobile number",
+    "CONFIRMATION_MSG" : "Your information has been successfully updated",
+    "PREFERRED_LANGUAGE" : "Preferred Language",
+    "CONFIRMATION_HEADER" : "Confirm",
+    "CANCEL" : "CANCEL",
+    "SAVE" : "SAVE",
+    "INVALID_MOBILE_LENGTH":"Invalid mobile number",
+    "INVALID_WORK_LENGTH":"Invalid work number",
+    "INVALID_HOME_LENGTH":"Invalid home number",
+    "INVALID_FAX_LENGTH":"Invalid fax number",
+    "CHANGE_PROFILE_LANGUAGE":"You can change your preferred language of communication by editing your account information.",
+    "SMS_SENT":"A verification code was sent to the mobile number you entered and you should receive it shortly. If not, please contact 111 or use On-Line support.",
+    "WRONG_SMS_CODE":"Wrong verification code",
+    "MAX_SMS":"You have reached the maximum number of send verification code trials."
+
+  },
+
+  "REQUEST_ROUTER": {
+    "ROUTER_TYPE" : "Router Type",
+    "ROUTER_DESCRIPTION" : "Router Description",
+    "CUSTOMER_ADDRESS" : "Delivery Address",
+    "CUSTOMER_NAME" : "Name",
+    "CUSTOMER_MOBILE1" : "Mobile Number",
+    "CUSTOMER_MOBILE2" : "Add New Mobile Number",
+    "ROUTER_INSTALL" : "Would you like an installation visit?",
+    "PAY" : "Pay Now",
+    "ROUTER_INSTALL_YES" : "Yes",
+    "ROUTER_INSTALL_NO" : "No",
+    "REQUEST_ROUTER":"Request Router",
+    "PAYMENT_CONFIRMATION" : "Payment Confirmation",
+    "ROUTER_DEVICE" : "Service / Product",
+    "ROUTER_PRICE" : "Router Price",
+    "ROUTER_INSTALLATION_FEES" : "Installation Fees",
+    "ROUTER_TOTAL_FEES" : "Total Fees",
+    "PAY_BTN" : "PAY",
+    "CUSTOMER_NUMBER" : "Customer Number",
+    "ADSL_PHONE" : "ADSL Phone No",
+    "AREA_CODE" : "Area Code",
+    "INVALID_MOBILE_LENGTH":"Invalid mobile number",
+    "ROUTER_INSTALLATION_MSG":"A technical visit can be provided against 75 EGP only. This service covers all Egypt."
+    },
+
+    "TICKETING": {
+      "TICKETING_LIST": {
+        "TITLE": "Ticketing",
+        "TAB_OPEN": "Open",
+        "TAB_CLOSED": "Closed",
+        "TICKET_STATUS": "Status",
+        "NO_TICKETS":"There is 0 tickets."
+      },
+    "TICKETING_DETAILS":{
+      "TITLE":"Ticket Details",
+      "TICKET_NUMBER":"Ticket Number",
+      "PROBLEM_TITLE":"Problem Title",
+      "PROBLEM_TYPE":"Problem Type",
+      "DONE_BY":"Done by",
+      "STATUS":"Status",
+      "REQUEST_DATE":"Request Date",
+      "CLOSURE_DATE":"Closure Date",
+      "COMMENTS":"Ticket Comments",
+      "COMMENT_PLACEHOLDER":"Write comment here...",
+      "COMMENT_BUTTON":"Comment"
+    },
+    "TICKETING_CREATION":
+    {
+      "OPENED_TICKET_MESSAGE":"You already have an open ticket titled <span>{{TT}}</span> are not working. Please refer to ticket no. <span>{{TN}}</span> to update it with your request. To view your ticket now.",
+      "TITLE":"Submit Ticket",
+      "MOBILE":"Mobile",
+      "PROBLEM_TITLE":"Problem Title",
+      "PROBLEM_TYPE":"Problem Type",
+      "PROBLEM_DESCRIPTION":"Problem Description...",
+      "SUBMIT":"Submit",
+      "ADD_TICKET":"Add Ticket",
+      "CLICK_HERE":"click here",
+      "SUSPENDED_USER":"Your subscription is currently suspended. Please reactivate your subscription to create a ticket or use on-line support or contact 19777 for support",
+      "PROBLEM_TYPE_LIST":[
+        {"TEXT":"Choose problem",
+        "VALUE":""},
+
+        {"TEXT":"Telephone and ADSL are not working",
+          "VALUE":"Telephone and ADSL are not working"},
+
+        {"TEXT":"ADSL Problem",
+        "VALUE":"ADSL Problem"},
+
+        {"TEXT":"Telephone Problem",
+        "VALUE":"Telephone Problem"},
+
+        {"TEXT":"Slow Speed",
+        "VALUE":"Slow Speed"},
+
+        {"TEXT":"Service Problem",
+        "VALUE":"Service Problem"},
+
+        {"TEXT":"Static IP Problem",
+        "VALUE":"Static IP Problem"},
+
+        {"TEXT":"Technical Visit",
+        "VALUE":"Technical Visit"},
+
+        {"TEXT":"Family Service Problem",
+        "VALUE":"Family Service Problem"},
+
+        {"TEXT":"Others",
+        "VALUE":"Others"}
+      ]
+    }
+  },
+
+  "REQUEST_OPTION_PACK":{
+    "REQUEST_OPTION": {
+      "TITLE": "Request Option",
+      "REQUEST_OPTION_PACK": "Request Option Pack",
+      "OPTION_PACK": "Option Pack",
+      "OPTION_PACK_DESCRIPTION": "Option Pack Description",
+      "SUBSCRIPTION_PERIOD": "Subscription Period",
+      "SUBSCRIBE": "Subscribe",
+      "INELIGIBLE_MSG":"Sorry, this service is not available for your subscription. Please contact 111 or use On-Line support for more information.",
+      "AVAILABLE_OPTION_PACK_LIST":[
+        {
+          "OPTION_PACK_PACKAGE_TYPE_ID":"71",
+          "DESCRIPTION":"1 Static IP",
+          "MSG":""
+        },
+        {
+          "OPTION_PACK_PACKAGE_TYPE_ID":"281",
+          "DESCRIPTION":"5 Static IPs & 5 Email Accounts",
+          "MSG":"The Option Pack type you have requested includes free domain and hosting. Please visit the nearest CSO to obtain them. For more information please call 19777"
+        },
+        {
+          "OPTION_PACK_PACKAGE_TYPE_ID":"282",
+          "DESCRIPTION":"13 Static IPs & 10 Email Accounts",
+          "MSG":"The Option Pack type you have requested includes free domain and hosting. Please visit the nearest CSO to obtain them. For more information please call 19777"
+        }
+      ]
+    },
+    "REQUEST_OPTION_PAY":{
+      "TITLE": "Request Option",
+      "PAYMENT_CONFIRMATION":"Payment Confirmation",
+      "SERVICE":"Service",
+      "PERIOD":"Period",
+      "TOTAL":"Total",
+      "PAY_NOW":"Pay Now"
+    }
+  },
+  "COMPLAINTS": {
+    "COMPLAINT_TEXT": "Complaints",
+    "COMPLAINT_TEXT2": "Submit Complaints",
+    "COMPLAINT_TYPE": "Complaint Type",
+    "COMPLAINTDESC": "Complaint Description...",
+    "SUBMITCOMPLAINT": "Submit Complaint",
+    "COMPLAINTCONFIRMATION": "Your complaint has been submitted successfully. You will be contacted shortly."
+  },
+
+  "SuspendReactivate": {
+    "SuspensionReactivateHeaderText" : "Suspend/Reactivate",
+    "ReactivationHeaderText" : "Reactivate Service Request",
+    "SuspensionHeaderText" : "Suspend Service Request",
+    "SuspensionButtonText": "Suspend Service",
+    "ActivationButtonText": "Activate Service",
+    "SuspensionText": "TEData suspension service gives you the flexibility to suspend your service anytime against 30 EGP monthly fees that can be renewed. TEData guarantees service availability upon reactivation request.",
+    "ActivateText": "For your convenience, you can reactivate your subscription by pressing the 'Reactivate Now' button. The reactivation period will be for 48 hours to give you the chance to visit one of the TE Data stores to renew your service noting that the 48 hours will be charged as part of your new renewal period. To find out the location of the TE Data stores across Egypt, please visit the Stores Locator and visit the store that is closer to you. Always remember, if you have any questions we are always happy to receive your call on 111.",
+    "ConfimationSuspendMsg":"Are you sure you want to suspend your service now?",
+    "ConfimationActivateMsg" :"Are you sure you want to reactivate your service?",
+    "ConfirmMsgSuspend":"Your request for suspending the service has been completed successfully.",
+    "ConfirmMsgSuspend2":"Your TEData reference number is ",
+    "ConfirmMsgActivation":"Your service will be reactivated for 48 hours. Please renew your subscription within 48 hours to avoid disconnection.",
+    "ConfirmMsgActivation2":"Your TEData reference number is ",
+    "NOTxt" : "NO",
+    "YESTxt" : "YES",
+    "GOHomeTxt" : "Go Home"
+
+  },
+
+  "Nearest_Branches": {
+    "NearestBranchesTitle" : "Nearest Outlets",
+    "NearestBranchesAddressText" : "Address",
+    "NearestBranchesPhoneText" : "Phone Number",
+    "NearestBranchesMenu" : "Find Nearest Outlets",
+    "LoadMoreText" : "Load More"
+  },
+
+  "DIALOG": {
+    "DIALOGMESSAGE":"Are you sure you want to suspend your service now ?" ,
+    "DIALOGYES": "Yes",
+    "DIALOGNO": "No"
+  }
+
+
+}

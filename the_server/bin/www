@@ -1,0 +1,111 @@
+
+var debug = require('debug')('ExpressApp9');
+
+ console.log("wwwww");
+ var http_or_https = require('http')
+
+ //var http_or_https = require('https');
+
+
+var fs = require('fs');
+var options = {
+  key: fs.readFileSync('./https-key.pem', 'utf8'),
+  cert: fs.readFileSync('./https-cert.pem', 'utf8')
+};
+
+var app = require('../app')
+
+/*
+require('electron-debug')();
+
+electronApp=require('app');
+var BrowserWindow = require('browser-window');
+electronApp.on('ready', function () {
+
+   var win = new BrowserWindow({ width: 800, height: 600, show: true,
+        title: 'Atom',
+        'auto-hide-menu-bar': true,
+        icon: this.constructor.iconPath,
+        'web-preferences': {
+          'subpixel-font-scaling': false}
+}); 
+win.on('closed', function() {
+  
+});
+
+win.loadUrl('http://localhost:4000/');
+});
+ */
+
+
+
+app.set('port', process.env.PORT || 4000);
+ 
+
+
+  if(http_or_https.globalAgent.protocol=="https:")
+  {
+  console.log("protocol s" + http_or_https.globalAgent.protocol) ;
+    var server = http_or_https.createServer(options, app)
+  }
+  else
+  {
+  console.log("protocol " + http_or_https.globalAgent.protocol)
+   var server= http_or_https.createServer(app);
+  }
+
+
+
+  app.io.attach(server);
+
+if (app.get('env') === 'production') {
+
+    
+  server.listen(app.get('port'),'0.0.0.0', function () {
+    console.log('production Express server listening on port ' + app.get('port'));
+ 
+  });
+  /*
+  return;
+  var c = new Cluster2({
+    port: app.get('port'),
+    cluster: true,
+    host: 'localhost'
+
+  });
+  c.listen(function (cb) {
+
+    cb(app);
+
+    console.log(Cluster.isMaster);
+
+  });
+  app.on('close', function () {
+    serving = false;
+  });
+  */
+  //c.on('died', function (pid) {
+  //    console.log('Worker ' + pid + ' died');
+  //});
+  //c.on('forked', function (pid) {
+  //    console.log('Worker ' + pid + ' forked');
+  //});
+  //c.on('SIGKILL', function () {
+  //    console.log('Got SIGKILL');
+  //});
+  //c.on('SIGTERM', function (event) {
+  //    console.log('Got SIGTERM - shutting down');
+  //});
+  //c.on('SIGINT', function () {
+  //    console.log('Got SIGINT');
+  //});
+}
+else {
+
+  server.listen(app.get('port'),'0.0.0.0', function () {
+
+    console.log('debug Express server listening on port ' + app.get('port'));
+  });
+
+
+}

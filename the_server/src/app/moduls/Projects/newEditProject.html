@@ -1,0 +1,145 @@
+<div style="overflow: auto;height: 100%;width: 100%">
+
+    <form (ngSubmit)="onSubmit()" [formGroup]="formGroup1"  >
+        <ion-list>
+
+
+
+            <ion-item  >
+                <ion-label   stacked>Project ID:</ion-label>
+                <ion-label  stacked style="margin: 0px;padding:10px;background-color: gainsboro"    >{{currentProject.projectID}}</ion-label>
+
+            </ion-item>
+
+            <ion-item>
+                <ion-label> Is Active </ion-label>
+                <ion-checkbox    [(ngModel)]="currentProject.activeOrNot"   [formControl]="formGroup1.controls.activeOrNot1"       ></ion-checkbox>
+            </ion-item>
+
+            <ion-item  >
+                <ion-label stacked >Project Name:</ion-label>
+
+                <ion-input    required  [(ngModel)]="currentProject.projectName"   [formControl]="formGroup1.controls.projectName1"      >
+
+                </ion-input>
+                <show-error  control="projectName1" [errors]="['required','minlength','nameValidator']"></show-error>
+
+            </ion-item>
+
+
+
+
+
+            <ion-item  >
+                <ion-label stacked >Package Name(ID) / Bundle ID:</ion-label>
+
+                <ion-input       [(ngModel)]="currentProject.projectPackageNameBundleID"    [formControl]="formGroup1.controls.projectPackageNameBundleID1"     >
+
+                </ion-input>
+                <show-error  control="projectPackageNameBundleID1" [errors]="['minlength','nameValidator']"></show-error>
+
+            </ion-item>
+
+            <ion-item>
+                <ion-label stacked>project Version:</ion-label>
+                <ion-input      [(ngModel)]="currentProject.projectVersion" [formControl]="formGroup1.controls.projectVersion1" ></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label stacked>Project Android Path(End with WWW):</ion-label>
+                <ion-input       [(ngModel)]="currentProject.projectAndroidPath"    [formControl]="formGroup1.controls.projectAndroidPath1"    ></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label stacked>Project IOS Path(End with WWW):</ion-label>
+                <ion-input       [(ngModel)]="currentProject.projectIOSPath"   [formControl]="formGroup1.controls.projectIOSPath1"     ></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label stacked>Project Windows universal Path(End with WWW):</ion-label>
+                <ion-input       [(ngModel)]="currentProject.projectWindowsPath"     [formControl]="formGroup1.controls.projectWindowsPath1"   ></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label stacked>Project WP Path(End with WWW):</ion-label>
+                <ion-input       [(ngModel)]="currentProject.projectWPPath"     [formControl]="formGroup1.controls.projectWPPath1"   ></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label stacked>Project Root Services File path:</ion-label>
+                <ion-input       [(ngModel)]="currentProject.projectServerRootFile"   [formControl]="formGroup1.controls.projectServerRootFile1"    ></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label> Enable Push DirectPushNotification </ion-label>
+                <ion-checkbox     [(ngModel)]="currentProject.enablePushNotification"   [formControl]="formGroup1.controls.enablePushNotification1"   ></ion-checkbox>
+            </ion-item>
+
+
+
+            <ion-item>
+                <ion-label stacked>Push DirectPushNotification Android API Key:</ion-label>
+                <ion-input   [(ngModel)]="currentProject.pushNotificationAndroidAPIKey" [disabled]="!currentProject.enablePushNotification" [formControl]="formGroup1.controls.pushNotificationAndroidAPIKey1"     ></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label stacked>Push DirectPushNotification IOS Key Path:</ion-label>
+                <ion-input   [(ngModel)]="currentProject.pushNotificationIOSKeyPath" [disabled]="!currentProject.enablePushNotification"    [formControl]="formGroup1.controls.pushNotificationIOSKeyPath1"   ></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label stacked>Push DirectPushNotification IOS Secret Path:</ion-label>
+                <ion-input   [(ngModel)]="currentProject.pushNotificationIOSSecretPath" [disabled]="!currentProject.enablePushNotification"   [formControl]="formGroup1.controls.pushNotificationIOSSecretPath1"      ></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label stacked>Voip Push DirectPushNotification IOS Key Path:</ion-label>
+                <ion-input   [(ngModel)]="currentProject.voipPushNotificationIOSKeyPath" [disabled]="!currentProject.enablePushNotification"  [formControl]="formGroup1.controls.voipPushNotificationIOSKeyPath1"       ></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label stacked>Voip Push DirectPushNotification IOS Secret Path:</ion-label>
+                <ion-input   [(ngModel)]="currentProject.voipPushNotificationIOSSecretPath" [disabled]="!currentProject.enablePushNotification" [formControl]="formGroup1.controls.voipPushNotificationIOSSecretPath1"    ></ion-input>
+            </ion-item>
+
+
+            <ion-item>
+                <ion-label stacked>Push DirectPushNotification Windows Package SID:</ion-label>
+                <ion-input   [(ngModel)]="currentProject.pushNotificationWindowsPackageSID" [disabled]="!currentProject.enablePushNotification"     [formControl]="formGroup1.controls.pushNotificationWindowsPackageSID1" ></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label stacked>Push DirectPushNotification Windows Package Secret Key:</ion-label>
+                <ion-input   [(ngModel)]="currentProject.pushNotificationWindowsPackageSecretKey" [disabled]="!currentProject.enablePushNotification"  [formControl]="formGroup1.controls.pushNotificationWindowsPackageSecretKey1"    ></ion-input>
+            </ion-item>
+
+            <button  ion-button  block round type="button" (click)="show_customuer_customers_info_urls_form()"   [disabled]="!currentProject.projectID>0"  >Customers info URL(s)</button>
+
+        </ion-list>
+
+
+
+        <ion-row center>
+            <ion-col offset-10>
+                <button ion-button   type="submit"    [disabled]="!formGroup1.valid">Save</button>
+                <!--<button style="margin-top: 30px;margin-bottom: 10px;margin-left: 20px">Create</button>-->
+            </ion-col>
+            <ion-col offset-10>
+                <button ion-button   type="button" (click)="deleteProject()"   [disabled]="!currentProject.projectID>0"  >Delete</button>
+            </ion-col>
+
+            <ion-col offset-10>
+                <button  ion-button  type="button" (click)="close()"    >Close</button>
+            </ion-col>
+
+
+        </ion-row>
+
+    </form>
+
+
+
+
+</div>
+
+
+<div #myModal_new_edit_project></div>
+

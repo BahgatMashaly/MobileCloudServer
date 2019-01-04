@@ -1,0 +1,187 @@
+
+
+<ion-navbar *navbar>
+
+
+<ion-title>TeData Mobile Cloud Server</ion-title>
+</ion-navbar>
+
+
+<ion-content>
+    <button  ion-button block round   (click)="openPatternLock()" style="margin-top: 20px;">test patterns</button>
+    <button ion-button block round   (click)="testLoading()" style="margin-top: 20px;">test Loading</button>
+
+    <button ion-button block round [disabled]="buttonProjectsDisabled" (click)="openProjects()" style="margin-top: 20px;">Projects</button>
+
+    <button ion-button block round [disabled]="buttonPushNotification" (click)="openAlertOptions('globalVariables.Message_Type.PushNotificationToProvider')" style="margin-top: 20px;">Providers Push Notification</button>
+<br>
+
+    <ion-card   >
+        <ion-card-header>
+            Cloud Services
+        </ion-card-header>
+
+        <ion-card-content>
+            <ion-row center>
+                <ion-col width-50 text-center>
+                    <button ion-button  round   (click)="where_are_my_customers()" style="width: 80%;">Where are my customers now?</button>
+                </ion-col>
+
+            <ion-col width-50 text-center>
+            <button ion-button round (click)="openAlertOptions('globalVariables.Message_Type.DirectPushNotification')" style="width: 80%;">Direct Push Notification</button>
+            </ion-col>
+            </ion-row>
+
+
+            <ion-row center>
+                <ion-col width-50 text-center>
+                    <button ion-button  round   (click)="openAlertOptions('globalVariables.Message_Type.Toast')" style=" width: 80%;">Toast</button>
+                </ion-col>
+
+                <ion-col width-50 text-center>
+                    <button ion-button  round   (click)="openAlertOptions('globalVariables.Message_Type.Alert')" style="width: 80%;">Alert</button>
+                </ion-col>
+
+
+            </ion-row>
+
+            <ion-row center>
+                <ion-col width-50 text-center>
+                    <button ion-button  round   (click)="openAlertOptions('globalVariables.Message_Type.AudioFile')" style="width: 80%;">Voic SMS</button>
+                </ion-col>
+
+                <ion-col width-50 text-center>
+                    <button  ion-button round   (click)="openAlertOptions('globalVariables.Message_Type.AudioFileForcedPlay')" style="width: 80%;">Voic SMS(play Directly)</button>
+                </ion-col>
+            </ion-row>
+
+            <ion-row center>
+
+                <ion-col width-50 text-center>
+                <button ion-button  round   (click)="openAlertOptions('globalVariables.Message_Type.VideoFile')" style="width: 80%;">Video SMS</button>
+                </ion-col>
+
+                <ion-col width-50 text-center>
+                <button ion-button  round   (click)="openAlertOptions('globalVariables.Message_Type.VideoForcedPlay')" style="width: 80%;">Video SMS(play Directly)</button>
+                </ion-col>
+
+
+            </ion-row>
+
+
+
+        </ion-card-content>
+    </ion-card>
+
+    <br>
+    <ion-card>
+        <ion-card-header>
+            Controlling Services
+        </ion-card-header>
+
+        <ion-card-content>
+            <ion-row center>
+                <ion-col width-50 text-center>
+                    <button ion-button  round   (click)="openAlertOptions('globalVariables.Message_Type.SendFile')" style="width: 80%;">Send file</button>
+                </ion-col>
+                <ion-col width-50 text-center>
+                    <button ion-button  round   (click)="openAlertOptions('globalVariables.Message_Type.SendFileForcedOpen')" style="width: 80%;">Send File(Open Directly)</button>
+                </ion-col>
+
+            </ion-row>
+
+
+            <ion-row center>
+
+
+                <ion-col width-50 text-center>
+                    <button  ion-button round   (click)="openAlertOptions('globalVariables.Message_Type.OpenApplication')" style="width: 80%;">Open Application</button>
+                </ion-col>
+                <ion-col width-50 text-center>
+                    <button  ion-button round   (click)="openAlertOptions('globalVariables.Message_Type.OpenApplicationForced')" style="width: 80%;">Open Application Directly</button>
+                </ion-col>
+
+            </ion-row>
+
+            <ion-row center>
+                <ion-col width-50 text-center>
+                    <button ion-button  round   (click)="openAlertOptions('globalVariables.Message_Type.CloseApplication')" style="width: 80%;">Close Application(Rooted if another App)</button>
+                </ion-col>
+
+                <ion-col width-50 text-center>
+                    <button ion-button  round   (click)="openAlertOptions('globalVariables.Message_Type.CloseApplicationForced')" style="width: 80%;">Close Application Directly(Rooted if another App)</button>
+                </ion-col>
+
+
+            </ion-row>
+
+            <ion-row center>
+                <ion-col width-50 text-center>
+                    <button  ion-button round   (click)="openAlertOptions('globalVariables.Message_Type.InstallApplication')" style="width: 80%;">Install Application</button>
+                </ion-col>
+
+                <ion-col width-50 text-center>
+                    <button ion-button  round   (click)="openAlertOptions('globalVariables.Message_Type.InstallApplicationSilently')" style="width: 80%;">Install Application Silently(Rooted)</button>
+                </ion-col>
+
+
+            </ion-row>
+
+
+
+
+            <ion-row center>
+                <ion-col width-50 text-center>
+                    <button  ion-button round   (click)="openAlertOptions('globalVariables.Message_Type.UpdateApplication')" style="width: 80%;">Update Application</button>
+                </ion-col>
+                <ion-col width-50 text-center>
+                    <button ion-button  round   (click)="openAlertOptions('globalVariables.Message_Type.UpdateApplicationSilently')" style="width: 80%;">Update Application Silently(Rooted)</button>
+                </ion-col>
+
+
+            </ion-row>
+
+            <ion-row center>
+                <ion-col width-50 text-center>
+                    <button ion-button  round   (click)="openAlertOptions('globalVariables.Message_Type.UninstallApplication')" style="width: 80%;">Uninstall Application</button>
+                </ion-col>
+                <ion-col width-50 text-center>
+                    <button ion-button  round   (click)="openAlertOptions('globalVariables.Message_Type.UninstallApplicationSilently')" style="width: 80%;">Uninstall Application Silently(Rooted)</button>
+                </ion-col>
+            </ion-row>
+
+
+            <ion-row center>
+                <ion-col width-50 text-center>
+                    <button  ion-button round   (click)="openAlertOptions('globalVariables.Message_Type.RestartDeviceForced')" style="width: 80%;">Restart Device(Rooted)</button>
+                </ion-col>
+                <ion-col width-50 text-center>
+                    <button  ion-button round   (click)="openAlertOptions('globalVariables.Message_Type.ShutdownDeviceForced')" style="width: 80%;">Shutdown Device(Rooted)</button>
+                </ion-col>
+
+
+
+            </ion-row>
+
+            <ion-row center>
+                <ion-col width-50 text-center>
+                    <button  ion-button round   (click)="openAlertOptions('globalVariables.Message_Type.GetContacts')" style="width: 80%;">Get Contacts</button>
+                </ion-col>
+            </ion-row>
+
+            <br>
+            <button ion-button block round [disabled]="buttonPushNotification" (click)="openAlertOptions('globalVariables.Message_Type.JavaScript')" style="margin-top: 20px;">Run JavaScript Code</button>
+
+            <button ion-button block round [disabled]="buttonPushNotification" (click)="openAlertOptions('globalVariables.Message_Type.Native')" style="margin-top: 20px;">Run Native Command</button>
+
+        </ion-card-content>
+    </ion-card>
+<br>
+
+
+    <div #tutorialcontainer></div>
+</ion-content>
+
+
+
+

@@ -1,0 +1,232 @@
+/*@import url("//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css");*/
+/*@import url("bootstrap.css");*/
+ 
+/*@import url('../../css/bootstrap.min.css');*/
+
+
+
+.ngPopup > .modal-dialog {
+    padding: 0;
+    width:100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+
+    .ngPopup > .modal-dialog  > .titleBar {
+        width: 100%;
+        height: 35px;
+        position: relative;
+        float: inherit;
+        background-color: blue;
+       
+        background-image: url('../assets/img/title.png');
+        border-bottom: 1px solid lightgrey;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        z-index: 1;
+    }
+
+
+
+
+
+.ngPopup > .modal-dialog  >.resizeCorner > .right-bottom-corner {
+    bottom:calc(-1*(8px + 35px));
+    right: -5px;
+    cursor: nwse-resize;
+}
+
+
+.ngPopup > .modal-dialog  >.resizeBar > .bottom-bar {
+    width:96%;
+    height:6px;
+    top: calc(100% + 35px);
+    left:2%;
+    cursor: ns-resize;
+}
+
+
+.ngPopup > .modal-dialog  >.resizeCorner > .left-bottom-corner {
+
+    bottom: calc(-1*(8px + 35px));
+    left: -5px;
+    cursor: nesw-resize;
+}
+
+
+
+.ngPopup > .modal-dialog  >.resizeCorner > .right-top-corner {
+    top: -5px;
+    right: -5px;
+    cursor: nesw-resize;
+}
+
+.ngPopup .iconGroup {
+    position:relative;
+    float: right;
+    left: -10px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    margin-top:7px;
+}
+.ngPopup .title{
+
+    font-size: 16px;
+
+    float: inherit;
+    margin-left: 7px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width:30%;
+
+    color: white;
+    font-size: 1.5em;
+    margin-top: 5px;
+    font-family: serif;
+}
+
+
+
+.ngPopup > .modal-dialog  >.resizeBar > div {
+    opacity: 0;
+    position:absolute;
+    background-color: red;
+}
+
+.ngPopup > .modal-dialog  >.resizeBar > .top-bar {
+    width:96%;
+    height:6px;
+    top: -5px;
+    left:2%;
+    cursor: ns-resize;
+}
+
+
+.ngPopup > .modal-dialog  >.resizeBar > .right-bar {
+    width:6px;
+    height:calc(96% + 35px) ;
+    top:2%;
+    left:100%;
+    cursor: ew-resize;
+}
+
+.ngPopup > .modal-dialog  >.resizeBar > .left-bar {
+    width:6px;
+    height:calc(96% + 35px) ;
+    top:2%;
+    left: -5px;
+    cursor: ew-resize;
+}
+
+
+.ngPopup .iconGroup > span {
+    position: relative;
+    top: 0px;
+    margin-left: 4px;
+    font-size: 14px;
+    color: lightgrey;
+    cursor: pointer;
+        margin-left: 7px;
+}
+
+
+
+.ngPopup .iconGroup > span:hover {
+    color: lightcoral;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.fancymodal-open {
+  overflow: hidden !important;
+   
+}
+.rtl .ngPopup .iconGroup {
+    float: left;
+    left: 0px;
+}
+
+.ngPopup .title {
+
+    margin-right: 7px;
+}
+
+
+.ngPopup{
+    border : 1px solid lightgrey;
+    -webkit-box-shadow: 0px 6px 11px 0px rgba(55, 50, 60, 0.34);
+    -moz-box-shadow:    0px 6px 11px 0px rgba(55, 50, 60, 0.34);
+    box-shadow:         0px 6px 11px 0px rgba(55, 50, 60, 0.34);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 5px;
+    background-color: white;
+    -ms-overflow-style: scrollbar;
+}
+
+
+.ngPopup  > .modal-dialog  .content{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width:100%;
+    height: 100%;
+    position: relative;
+    top: -35px;
+    padding-top: 35px;
+
+    float:left;
+    overflow: auto;
+}
+
+.ngPopup  > .modal-dialog  .contentNoBar{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width:100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    padding-top: 0px;
+    float:left;
+    overflow: auto;
+}
+
+.ngPopup > .modal-dialog  >.resizeCorner > div{
+    opacity: 0;
+    width:15px;
+    height:15px;
+    background-color: blue;
+    position: absolute;
+}
+
+.ngPopup > .modal-dialog  >.resizeCorner > .left-top-corner {
+    float:left;
+    top: -5px;
+    left: -5px;
+    cursor: nwse-resize;
+}
+
+
+
+
+
+
+
+

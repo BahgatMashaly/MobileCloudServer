@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html  >
+
+
+<head>
+  <script data-ionic="inject">
+    (function(w){var i=w.Ionic=w.Ionic||{};i.version='3.7.1';i.angular='4.4.3';i.staticDir='build/';})(window);
+  </script>
+
+  <title>TeData Bus Module</title>
+  <meta charset="UTF-8">
+
+  <!--<meta http-equiv="Content-Security-Policy" content="script-src 'self' https://maps.gstatic.com/ https://*.googleapis.com/   https://cdn.socket.io http://localhost:* 'unsafe-inline' 'unsafe-eval'">-->
+
+  <meta http-equiv="Content-Security-Policy"
+        content="
+          default-src * ;
+
+          img-src * 'self' data: https:;
+          script-src 'self' 'unsafe-inline' 'unsafe-eval'  https://payments.tedata.net/*  https://mytedata.net/* https://maps.gstatic.com/ https://*.googleapis.com/  http://localhost   https://localhost  http://192.168.1.219   http://192.168.203.2  https://192.168.1.219  https://cdn.socket.io https://* http://* http://192.168.128.41  http://192.168.129.41 ;
+          style-src  'self' 'unsafe-inline' *
+              " >
+
+  <!--connect-src  'self' ws://localhost:*/livereload  http://192.168.203.2 ;   تستخدم لو لم اساخدم النجمة في الديفولت-->
+  <!--object-src  ‘none’   لا اريد اضافة اي فلاش او جافا ابلت-->
+  <!--report-url https://service-receve-report     لو عايز اخزن تقرير عن اي هاك سوف يرسله البراوزر مباشرة-->
+  <!--script-src  ‘self’  "nonce-rundomAnyValue"  "strict-dynamic" -->
+  <!--<script nonce="the_same_nonce-rundomAnyValue" src="http://fdfdf.js"> </script>-->
+  <!--"strict-dynamic"  تعني ان اي ملف تم تحميله -->
+  <!--عن طريق-->
+  <!--nonce-->
+  <!--يستطيع تحميل اي ملفات اخرى من اي جهة-->
+  <!--'unsafe-eval' اتاحة eval-->
+  <!--'unsafe-inline'  اتاحة  inline-->
+  <!--https://payments.tedata.net/*  https://mytedata.net/* https://maps.gstatic.com/ https://*.googleapis.com/ http://localhost:* https://localhost:* http://192.168.1.219:*  http://192.168.203.2:*  https://192.168.1.219:* https://cdn.socket.io https://* http://* http://192.168.128.41/* http://192.168.129.41/*-->
+
+
+
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+
+  <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#4e8ef7">
+
+  <!--un-comment this code to enable service worker-->
+  <script>
+      //    if ('serviceWorker' in navigator) {
+      //      navigator.serviceWorker.register('service-worker.js')
+      //        .then(() => console.log('service worker installed'))
+      //        .catch(err => console.log('Error', err));
+      //    }
+      function initMap()
+      {
+          console.log("google map tool loaded");
+      }
+  </script>
+
+  <link href="build/main.css" rel="stylesheet">
+
+
+  <!--<script async defer-->
+  <!--src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6GIFiTdmCv6CcLv-VtxT0DJ-eYIu298k&callback=initMap">-->
+  <!--</script>-->
+
+  <!--<script async defer-->
+  <!--src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6GIFiTdmCv6CcLv-VtxT0DJ-eYIu298k&callback=initMap">-->
+  <!--</script>-->
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6GIFiTdmCv6CcLv-VtxT0DJ-eYIu298k&callback=initMap&libraries=drawing"></script>
+
+
+
+
+  <style type="text/css">/* This is not a zero-length file! */</style><style type="text/css">/* This is not a zero-length file! */</style><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/26/7/intl/ar_ALL/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/26/7/intl/ar_ALL/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/26/7/intl/ar_ALL/stats.js"></script></head>
+
+<body>
+
+<ion-app >
+
+</ion-app>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="assets/lib/ag-grid/dist/styles/ag-grid.css">
+<link rel="stylesheet" type="text/css" href="assets/lib/ag-grid/dist/styles/theme-fresh.css">
+
+<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+
+
+<script src="assets/lib/jquery.js"></script>
+<link href="assets/lib/DataTables/extensions/Scroller/css/scroller.dataTables.min.css" rel="stylesheet"> 
+<link href="assets/lib/DataTables/extensions/FixedColumns/css/fixedColumns.dataTables.min.css" rel="stylesheet">
+
+<link href="assets/lib/DataTables/media/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="assets/lib/DataTables/extensions/editor/dataTables.editor.min.css" rel="stylesheet"> 
+<link href="assets/lib/DataTables/media/css/dataTables.jqueryui.min.css" rel="stylesheet">
+<link href="assets/lib/DataTables/extensions/TableTools/css/dataTables.tableTools.css" rel="stylesheet"> 
+
+
+<script src="assets/lib/DataTables/media/js/jquery.dataTables.js"></script>
+<script src="assets/lib/DataTables/extensions/ColReorder/js/dataTables.colReorder.js"></script> 
+<script src="assets/lib/DataTables/extensions/FixedHeader/js/dataTables.fixedHeader.js"></script>
+ <script src="assets/lib/DataTables/extensions/FixedColumns/js/dataTables.fixedColumns.js"></script>
+ <script src="assets/lib/DataTables/extensions/Scroller/js/dataTables.scroller.js"></script>
+ <script src="assets/lib/DataTables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js"></script>
+ <script src="assets/lib/DataTables/extensions/fnStandingRedraw.js.js"></script> 
+<script src="assets/lib/DataTables/extensions/dataTables.colResize.js"></script>
+
+ <script src="assets/lib/DataTables/extensions/TableTools/js/dataTables.tableTools.min.js"></script>
+ <script src="assets/lib/DataTables/extensions/editor/dataTables.editor.js"></script>
+
+ <script src="assets/lib/exportTable/tableExport.js"></script>
+<script src="assets/lib/exportTable/jquery.base64.js"></script>
+
+<script src="assets/lib/Crypto/CryptoJSCore.js"></script>
+<script src="assets/lib/Crypto/enc-base64.js"></script>
+<script src="assets/lib/Crypto/x64-core.js"></script>
+<script src="assets/lib/Crypto/sha512.js"></script>
+<script src="assets/lib/Crypto/cipher-core.js"></script>
+<script src="assets/lib/Crypto/hmac.js"></script>
+<script src="assets/lib/Crypto/pbkdf2.js"></script>
+<script src="assets/lib/Crypto/aes.js"></script>
+
+
+
+<script src="build/polyfills.js"></script>
+<script src="build/main.js"></script>
+
+
+
+</body></html>

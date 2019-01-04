@@ -1,0 +1,38 @@
+﻿
+<ion-navbar *navbar>
+
+    <ion-title>Login</ion-title>
+
+
+</ion-navbar>
+<ion-content>
+
+
+    <div class="login-card">
+        <img src="assets/img/TE-data.png" style=" display: block; margin-left: auto;margin-right: auto" />
+        <h5 style="
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+    background-color: white;
+">Mobile Cloude Server</h5>
+
+
+    <h1>Log-in</h1><br>
+      
+  <form >
+    <input type="text"  [(ngModel)]="userName" name="user" placeholder="User name" (keypress)="enterPress($event)">
+    <input type="password"  name="password"   [(ngModel)]="Password" placeholder="Password" (keypress)="enterPress($event)">
+    <input type="button" name="login" class="login login-submit" (click)="LoginClick()" value="login">
+    
+  </form>
+    
+   
+</div>
+</ion-content>
+
+ 
+    
+     

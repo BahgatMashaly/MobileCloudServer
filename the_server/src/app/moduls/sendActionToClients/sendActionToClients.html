@@ -1,0 +1,111 @@
+<style>
+
+    canvas {
+        display: inline-block;
+        background: #202020;
+        width: 95%;
+        height: 50px;
+        box-shadow: 0px 0px 10px greenyellow;
+    }
+
+    #record.recording {
+        background: red;
+        background: -webkit-radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%);
+        background: -moz-radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%);
+        background: radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%);
+    }
+
+    #save { opacity: 0.25;}
+    #save[download] { opacity: 1;}
+    #viz {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    @media (orientation: landscape) {
+        body { flex-direction: row;}
+        #controls { flex-direction: column; height: 100%; width: 100%;}
+        #viz { height: 100%; width: 100%;}
+    }
+
+</style>
+<div style="overflow: auto;height: 100%;width: 100%">
+    <ion-card>
+        <ion-card-content   >
+
+
+    <ion-row center>
+
+    <ion-col width-60  [hidden]="!showContente.MessageAndTitle>0" >
+<label>   Title:</label>
+<input type="text"  [(ngModel)]="title" >
+    <label>    Messaage:</label>
+    <input type="text" style="width: 300px"  [(ngModel)]="message">
+        </ion-col>
+
+
+        <ion-col width-60  [hidden]="!showContente.toast>0" >
+            <label>   Toast:</label>
+            <input type="text"  style="width: 300px" [(ngModel)]="toast" >
+
+        </ion-col>
+
+
+        <ion-col width-60  [hidden]="!showContente.bundleID>0" >
+            <label>   Bundle ID:</label>
+            <input type="text"  [(ngModel)]="bundleID" >
+
+        </ion-col>
+
+
+        <ion-col width-60  [hidden]="!showContente.file>0" >
+            <input type="file" (change)="fileChangeEvent($event)" placeholder="Upload file..." />
+            <br>
+            <ion-row center [hidden]="!showContente.allawrecording>0" >
+                <img  id="record" #recordx src="assets/img/mic128.png" (click)="toggleRecording(recordx);"  style="height: 50px; width: 50px;">
+
+                <a id="save" href="#"><img src="assets/img/save.svg"></a>
+
+
+                <div  id="viz">
+                    <canvas  id="analyser"></canvas>
+
+                </div>
+            </ion-row>
+        </ion-col>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <ion-col width-40 text-right>
+
+        <button    round ion-button   (click)="filter_by_location()">Filter By Location</button>
+
+    <button    round  ion-button (click)="Start()">Start</button>
+    </ion-col>
+        </ion-row>
+
+
+        </ion-card-content>
+
+    </ion-card>
+    <table id="send_action_table_dom_id" class="   hover       row-border order-column " cellpadding="0" cellspacing="0" width="100%"></table>
+</div>
+
+
+<div #myview></div>
+
+

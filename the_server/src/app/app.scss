@@ -1,0 +1,141 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+// APP MOBILE
+
+@font-face {
+  //font-family: 'Cairo-Regular';
+  //src: url('../assets/fonts/Cairo-Regular.eot');
+  //src: url('../assets/fonts/Cairo-Regular.woff') format('woff'),
+  //url('../assets/fonts/Cairo-Regular.ttf') format('truetype'),
+  //url('../assets/fonts/Cairo-Regular.svg') format('svg'),
+  //url('../assets/fonts/Cairo-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{font-family: 'Cairo-Regular';}
+.dark-content {background: #707173 !important;}
+.menu-content{background: #fff !important;}
+.no-margin{margin:0px !important;}
+.no-padding{padding: 0px !important;}
+.list-header-md, .list-header-ios {border-top: 0px solid #dedede;}
+[dir="rtl"] .menu-inner {
+  right: 0 !important;
+  left: auto !important;
+}
+[dir="ltr"] .menu-inner {
+  right: auto !important;
+  left: 0 !important;
+}
+[dir="rtl"] .item-ios.item-block .item-inner {
+  padding-right: 8px;
+}
+[dir="rtl"] .item-ios [item-start] {
+  margin-right: 0;
+  margin-left: 16px !important;
+}
+// [dir="rtl"] .item-md [item-start],  .item-md [item-start] {
+//     margin-right: 0;
+//     margin-left: 0px !important;
+// }
+.alert-ios .alert-radio-label, .alert-md .alert-radio-label{
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.header-ios .toolbar-ios:last-child .toolbar-background-ios {
+  border-width: 0 0 0;
+}
+.note-md, .note-ios {
+  color: #777777;
+}
+// Ticketing List
+[dir="ltr"] .open-list {
+  border-right: 0px solid red;
+  border-left: 3px solid red;
+}
+[dir="rtl"] .open-list {
+  border-right: 3px solid red;
+  border-left: 0px solid red;
+}
+[dir="ltr"] .hold-list {
+  border-right: 0px solid orange;
+  border-left: 3px solid orange;
+}
+[dir="rtl"] .hold-list {
+  border-right: 3px solid orange;
+  border-left: 0px solid orange;
+}
+[dir="ltr"] .closed-list {
+  border-right: 0px solid green;
+  border-left: 3px solid green;
+}
+[dir="rtl"] .closed-list {
+  border-right: 3px solid green;
+  border-left: 0px solid green;
+}
+.grey {
+  color: gray !important;
+}
+.item-md.item-input.ng-valid.input-has-value:not(.input-has-focus) .item-inner {
+  border-bottom-color: #11b142;
+  box-shadow: inset 0 -1px 0 0 #11b142;
+}
+ion-modal {
+  padding: 30px;
+  padding-top: 20%;
+  background: rgba(0,0,0,0.5);
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  opacity:  1  !important;
+  color:    grey  !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    grey  !important;
+  opacity:  1 !important;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    grey !important;
+  opacity:  1 !important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:    grey !important;
+  opacity:  1 !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  opacity:  1 !important;
+  color:    grey !important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  opacity:  1 !important;
+  color: gray !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  opacity:  1 !important;
+  color: gray !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  opacity:  1 !important;
+  color: gray !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  opacity:  1 !important;
+  color: gray !important;
+}
+
+
